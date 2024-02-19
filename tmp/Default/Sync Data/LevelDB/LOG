@@ -1,2 +1,3 @@
-2024/02/19-11:45:25.956 481c Creating DB c:\Users\amilc\Documents\Puppteer\puppeteer-open-food-facts\tmp\Default\Sync Data\LevelDB since it was missing.
-2024/02/19-11:45:25.976 481c Reusing MANIFEST c:\Users\amilc\Documents\Puppteer\puppeteer-open-food-facts\tmp\Default\Sync Data\LevelDB/MANIFEST-000001
+2024/02/19-17:12:54.293 28a8 Reusing MANIFEST c:\Users\amilc\Documents\Puppteer\puppeteer-open-food-facts\tmp\Default\Sync Data\LevelDB/MANIFEST-000001
+2024/02/19-17:12:54.296 28a8 Recovering log #3
+2024/02/19-17:12:54.296 28a8 Reusing old log c:\Users\amilc\Documents\Puppteer\puppeteer-open-food-facts\tmp\Default\Sync Data\LevelDB/000003.log 

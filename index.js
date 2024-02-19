@@ -1,38 +1,101 @@
-// Importa a biblioteca Puppeteer
 const puppeteer = require("puppeteer");
+const fs = require("fs");
 
-// Função assíncrona para usar o Puppeteer
 (async () => {
-  // Abre um navegador Puppeteer
-  //headless false faz com que o utilizador veja o robo fazendo os passos
-  //userDataDir: "./tmp" salva suas ações (resolver capcha e assim ao reabir ele não precisa resolver captcha)
   const browser = await puppeteer.launch({
     headless: false,
     defaultViewport: false,
     userDataDir: "./tmp",
   });
-
-  // Abre uma nova página no navegador
   const page = await browser.newPage();
-
-  // Navega até o site https://example.com
   await page.goto("https://br.openfoodfacts.org");
+  let products = []; // Array para armazenar os dados dos produtos
+  const productsHandles = await page.$$(".search_results > li");
 
-  // let's just call them tweetHandle
-  const productHandles = await page.$$(".search_results .small-block-grid-1 .medium-block-grid-4 .large-block-grid-6 .xlarge-block-grid-8 .xxlarge-block-grid-10");
+  for (let i = 0; i < productsHandles.length; i++) {
+    try {
+      const productsHandles = await page.$$(".search_results > li"); // Re-seleciona os elementos após cada navegação
+      await productsHandles[i].click();
+      await page.waitForNavigation();
 
-  // loop thru all handlesø
-  for (const tweethandle of tweetHandles) {
-    // pass the single handle below
-    const singleTweet = await page.evaluate((el) => el.innerText, tweethandle);
+      // Aqui você está dentro do produto, pode fazer o que quiser
+      console.log("Dentro do produto");
 
-    // do whatever you want with the data
-    console.log(singleTweet);
+      const idElement = await page.$("#barcode");
+      const nameElement = await page.$(
+        "div > div.medium-8.small-12.columns > h2"
+      );
+      const nutritionScoreElement = await page.$(
+        "#attributes_grid > li:nth-child(1) > a > div > div > div.attr_text > h4"
+      );
+      const nutritionTitleElement = await page.$(
+        "#attributes_grid > li:nth-child(1) > a > div > div > div.attr_text > span"
+      );
+      const novaScoreElement = await page.$(
+        "#attributes_grid > li:nth-child(2) > a > div > div > div.attr_text > h4"
+      );
+      const novaTitleElement = await page.$(
+        "#attributes_grid > li:nth-child(2) > a > div > div > div.attr_text > span"
+      );
+
+      const id = idElement
+        ? await page.evaluate((element) => element.textContent, idElement)
+        : "Id não encontrado";
+      const name = nameElement
+        ? await page.evaluate((element) => element.textContent, nameElement)
+        : "Nome não encontrado";
+      const nutritionScore = nutritionScoreElement
+        ? await page.evaluate((element) => {
+            const fullText = element.textContent;
+            const score = fullText.replace("Nutri-Score ", "");
+            return score.trim();
+          }, nutritionScoreElement)
+        : "Nutri-Score não encontrado";
+      const nutritionTitle = nutritionTitleElement
+        ? await page.evaluate(
+            (element) => element.textContent,
+            nutritionTitleElement
+          )
+        : "Título de nutrição não encontrado";
+      const novaScore = novaScoreElement
+        ? await page.evaluate((element) => {
+            const fullText = element.textContent;
+            const score = parseInt(fullText.replace("NOVA ", ""));
+            return score;
+          }, novaScoreElement)
+        : "NOVA Score não encontrado";
+      const novaTitle = novaTitleElement
+        ? await page.evaluate(
+            (element) => element.textContent,
+            novaTitleElement
+          )
+        : "Título NOVA não encontrado";
+
+
+      const product = {
+        id: id,
+        name,
+        nutrition: {
+          score: nutritionScore,
+          title: nutritionTitle,
+        },
+        nova: {
+          score: novaScore,
+          title: novaTitle,
+        },
+      };
+
+      products.push(product); // Adiciona os dados do produto ao array
+      console.log(product);
+      await page.goBack();
+      console.log("Voltou para a lista de produtos");
+    } catch (error) {
+      console.error(error);
+    }
   }
 
-  // Tira uma captura de tela da página e salva como example.png
-  await page.screenshot({ path: "example.png" });
+  // Salva os dados em um arquivo JSON
+  fs.writeFileSync("products.json", JSON.stringify(products, null, 2));
 
-  // Fecha o navegador
-  // await browser.close();
+  await browser.close();
 })();
