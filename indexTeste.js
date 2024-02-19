@@ -7,56 +7,70 @@ const fs = require("fs");
     defaultViewport: false,
     userDataDir: "./tmp",
   });
-
   const page = await browser.newPage();
   await page.goto("https://br.openfoodfacts.org");
-
   let products = []; // Array para armazenar os dados dos produtos
-
   const productsHandles = await page.$$(".search_results > li");
 
-  for (const producthangle of productsHandles)
+  for (let i = 0; i < productsHandles.length; i++) {
     try {
-      await producthangle.click();
+      const productsHandles = await page.$$(".search_results > li"); // Re-seleciona os elementos após cada navegação
+      await productsHandles[i].click();
       await page.waitForNavigation();
 
-      const id = await page.evaluate(() => {
-        return document.querySelector("#barcode").textContent;
-      });
+      // Aqui você está dentro do produto, pode fazer o que quiser
+      console.log("Dentro do produto");
 
-      const name = await page.evaluate(() => {
-        return document.querySelector(
-          "div > div.medium-8.small-12.columns > h2"
-        ).textContent;
-      });
+      const idElement = await page.$("#barcode");
+      const nameElement = await page.$(
+        "div > div.medium-8.small-12.columns > h2"
+      );
+      const nutritionScoreElement = await page.$(
+        "#attributes_grid > li:nth-child(1) > a > div > div > div.attr_text > h4"
+      );
+      const nutritionTitleElement = await page.$(
+        "#attributes_grid > li:nth-child(1) > a > div > div > div.attr_text > span"
+      );
+      const novaScoreElement = await page.$(
+        "#attributes_grid > li:nth-child(2) > a > div > div > div.attr_text > h4"
+      );
+      const novaTitleElement = await page.$(
+        "#attributes_grid > li:nth-child(2) > a > div > div > div.attr_text > span"
+      );
 
-      const nutritionScore = await page.evaluate(() => {
-        const fullText = document.querySelector(
-          "#attributes_grid > li:nth-child(1) > a > div > div > div.attr_text > h4"
-        ).textContent;
-        const score = fullText.replace("Nutri-Score ", "");
-        return score.trim();
-      });
+      const id = idElement
+        ? await page.evaluate((element) => element.textContent, idElement)
+        : "Id não encontrado";
+      const name = nameElement
+        ? await page.evaluate((element) => element.textContent, nameElement)
+        : "Nome não encontrado";
+      const nutritionScore = nutritionScoreElement
+        ? await page.evaluate((element) => {
+            const fullText = element.textContent;
+            const score = fullText.replace("Nutri-Score ", "");
+            return score.trim();
+          }, nutritionScoreElement)
+        : "Nutri-Score não encontrado";
+      const nutritionTitle = nutritionTitleElement
+        ? await page.evaluate(
+            (element) => element.textContent,
+            nutritionTitleElement
+          )
+        : "Título de nutrição não encontrado";
+      const novaScore = novaScoreElement
+        ? await page.evaluate((element) => {
+            const fullText = element.textContent;
+            const score = parseInt(fullText.replace("NOVA ", ""));
+            return score;
+          }, novaScoreElement)
+        : "NOVA Score não encontrado";
+      const novaTitle = novaTitleElement
+        ? await page.evaluate(
+            (element) => element.textContent,
+            novaTitleElement
+          )
+        : "Título NOVA não encontrado";
 
-      const nutritionTitle = await page.evaluate(() => {
-        return document.querySelector(
-          "#attributes_grid > li:nth-child(1) > a > div > div > div.attr_text > span"
-        ).textContent;
-      });
-
-      const novaScore = await page.evaluate(() => {
-        const fullText = document.querySelector(
-          "#attributes_grid > li:nth-child(2) > a > div > div > div.attr_text > h4"
-        ).textContent;
-        const score = parseInt(fullText.replace("NOVA ", ""));
-        return score;
-      });
-
-      const novaTitle = await page.evaluate(() => {
-        return document.querySelector(
-          "#attributes_grid > li:nth-child(2) > a > div > div > div.attr_text > span"
-        ).textContent;
-      });
 
       const product = {
         id: id,
@@ -73,12 +87,12 @@ const fs = require("fs");
 
       products.push(product); // Adiciona os dados do produto ao array
       console.log(product);
-
-      // Clique no produto e espere a navegação de forma assíncrona
-      await Promise.all([clickProductAndWait(productHandle), page.goBack()]);
+      await page.goBack();
+      console.log("Voltou para a lista de produtos");
     } catch (error) {
       console.error(error);
     }
+  }
 
   // Salva os dados em um arquivo JSON
   fs.writeFileSync("products.json", JSON.stringify(products, null, 2));

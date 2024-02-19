@@ -1,43 +1,7 @@
 [
   {
-    "id": "3155250349793",
-    "name": "Creme Chantilly Président - 250 g (241 ml)",
-    "nutrition": {
-      "score": "D",
-      "title": "Qualidade nutricional baixa"
-    },
-    "nova": {
-      "score": 4,
-      "title": "Alimentos ultra-processados"
-    }
-  },
-  {
-    "id": "3046920010603",
-    "name": "Chocolate meio amargo com framboesa - Lindt - 100 g e",
-    "nutrition": {
-      "score": "E",
-      "title": "Má qualidade nutricional"
-    },
-    "nova": {
-      "score": 4,
-      "title": "Alimentos ultra-processados"
-    }
-  },
-  {
-    "id": "3014680009175",
-    "name": "Bonbon as la Sève de Pin - La Vosgienne - 125 g",
-    "nutrition": {
-      "score": "D",
-      "title": "Qualidade nutricional baixa"
-    },
-    "nova": {
-      "score": 4,
-      "title": "Alimentos ultra-processados"
-    }
-  },
-  {
-    "id": "07117815",
-    "name": "07117815",
+    "id": "7898657830346",
+    "name": "Biscoito wafer recheado sabor brigadeiro - Capricche",
     "nutrition": {
       "score": "desconhecido",
       "title": "Faltam dados para calcular o Nutri-Score"
@@ -48,189 +12,21 @@
     }
   },
   {
-    "id": "7891000352175",
-    "name": "Nescau - Nestlé - 370 g",
+    "id": "7891025116035",
+    "name": "Leite  integral zero lactose - Corpus",
     "nutrition": {
       "score": "desconhecido",
       "title": "Faltam dados para calcular o Nutri-Score"
     },
     "nova": {
-      "score": 4,
-      "title": "Alimentos ultra-processados"
+      "score": null,
+      "title": "Nível desconhecido de processamento do alimento"
     }
   },
   {
-    "id": "5601045300022",
+    "id": "7896261403178",
     "name": "Nome não encontrado",
     "nutrition": {
-      "score": "E",
-      "title": "Má qualidade nutricional"
-    },
-    "nova": {
-      "score": 4,
-      "title": "Alimentos ultra-processados"
-    }
-  },
-  {
-    "id": "7893000394209",
-    "name": "Qualy cremosa com sal - 500 g",
-    "nutrition": {
-      "score": "desconhecido",
-      "title": "Faltam dados para calcular o Nutri-Score"
-    },
-    "nova": {
-      "score": 4,
-      "title": "Alimentos ultra-processados"
-    }
-  },
-  {
-    "id": "7898024395232",
-    "name": "Nutella Ferrero - 140 g",
-    "nutrition": {
-      "score": "E",
-      "title": "Má qualidade nutricional"
-    },
-    "nova": {
-      "score": 4,
-      "title": "Alimentos ultra-processados"
-    }
-  },
-  {
-    "id": "7891095300488",
-    "name": "Farofa - Yoki - 500 g",
-    "nutrition": {
-      "score": "C",
-      "title": "Qualidade nutricional média"
-    },
-    "nova": {
-      "score": 4,
-      "title": "Alimentos ultra-processados"
-    }
-  },
-  {
-    "id": "11117780",
-    "name": "Néstor - Nestle - 21g",
-    "nutrition": {
-      "score": "E",
-      "title": "Má qualidade nutricional"
-    },
-    "nova": {
-      "score": 4,
-      "title": "Alimentos ultra-processados"
-    }
-  },
-  {
-    "id": "7898024394181",
-    "name": "Nutella - Ferrero - 350 g",
-    "nutrition": {
-      "score": "D",
-      "title": "Qualidade nutricional baixa"
-    },
-    "nova": {
-      "score": 4,
-      "title": "Alimentos ultra-processados"
-    }
-  },
-  {
-    "id": "77940131",
-    "name": "Turrón & Maní - Arcor - 25 g",
-    "nutrition": {
-      "score": "D",
-      "title": "Qualidade nutricional baixa"
-    },
-    "nova": {
-      "score": 4,
-      "title": "Alimentos ultra-processados"
-    }
-  },
-  {
-    "id": "7891000284933",
-    "name": "Ninho - Nestle - 380 g",
-    "nutrition": {
-      "score": "D",
-      "title": "Qualidade nutricional baixa"
-    },
-    "nova": {
-      "score": 1,
-      "title": "Alimentos não processados ​​ou minimamente processados"
-    }
-  },
-  {
-    "id": "7898215151708",
-    "name": "Leite Integral Piracanjuba - 1 L",
-    "nutrition": {
-      "score": "B",
-      "title": "Qualidade nutricional boa"
-    },
-    "nova": {
-      "score": 4,
-      "title": "Alimentos ultra-processados"
-    }
-  },
-  {
-    "id": "7898080640611",
-    "name": "Leite UHT Integral - Italac - 1 L",
-    "nutrition": {
-      "score": "C",
-      "title": "Qualidade nutricional média"
-    },
-    "nova": {
-      "score": 4,
-      "title": "Alimentos ultra-processados"
-    }
-  },
-  {
-    "id": "7891000325858",
-    "name": "Leite em pó Integral - Nestlé - 380 g",
-    "nutrition": {
-      "score": "C",
-      "title": "Qualidade nutricional média"
-    },
-    "nova": {
-      "score": null,
-      "title": "Nível desconhecido de processamento do alimento"
-    }
-  },
-  {
-    "id": "5601216120152",
-    "name": "Azeite De Oliva Extra Virgem Português Andorinha Clássicos Vidro 500ml",
-    "nutrition": {
-      "score": "desconhecido",
-      "title": "Faltam dados para calcular o Nutri-Score"
-    },
-    "nova": {
-      "score": 2,
-      "title": "Ingredientes culinários processados"
-    }
-  },
-  {
-    "id": "8410770022058",
-    "name": "Sopa Juliana - Trevijano - 100 g",
-    "nutrition": {
-      "score": "desconhecido",
-      "title": "Faltam dados para calcular o Nutri-Score"
-    },
-    "nova": {
-      "score": 3,
-      "title": "Alimentos processados"
-    }
-  },
-  {
-    "id": "7891021006125",
-    "name": "Café Torrado E Moído Tradicional Melitta Caixa 500g",
-    "nutrition": {
-      "score": "não aplicável",
-      "title": "Não aplicável para a categoria"
-    },
-    "nova": {
-      "score": 1,
-      "title": "Alimentos não processados ​​ou minimamente processados"
-    }
-  },
-  {
-    "id": "7896036090244",
-    "name": "óleo De Soja Tipo 1 Liza Garrafa 900ml - CARGILL BRASIL - 900 ml",
-    "nutrition": {
       "score": "desconhecido",
       "title": "Faltam dados para calcular o Nutri-Score"
     },
@@ -240,212 +36,20 @@
     }
   },
   {
-    "id": "7894900027013",
-    "name": "Refrigerante Coca Cola Original Garrafa 2l",
-    "nutrition": {
-      "score": "E",
-      "title": "Má qualidade nutricional"
-    },
-    "nova": {
-      "score": null,
-      "title": "Nível desconhecido de processamento do alimento"
-    }
-  },
-  {
-    "id": "7898215157403",
-    "name": "Leite Ninho Integral - 1l",
-    "nutrition": {
-      "score": "desconhecido",
-      "title": "Faltam dados para calcular o Nutri-Score"
-    },
-    "nova": {
-      "score": null,
-      "title": "Nível desconhecido de processamento do alimento"
-    }
-  },
-  {
-    "id": "7894000050027",
-    "name": "Maionese Hellmanns Pote 250g - HELLMANN S",
-    "nutrition": {
-      "score": "desconhecido",
-      "title": "Faltam dados para calcular o Nutri-Score"
-    },
-    "nova": {
-      "score": 4,
-      "title": "Alimentos ultra-processados"
-    }
-  },
-  {
-    "id": "7896066301457",
-    "name": "Pão De Forma Integral Wickbold Do Forno Pacote 500g",
-    "nutrition": {
-      "score": "desconhecido",
-      "title": "Faltam dados para calcular o Nutri-Score"
-    },
-    "nova": {
-      "score": null,
-      "title": "Nível desconhecido de processamento do alimento"
-    }
-  },
-  {
-    "id": "7898215151784",
-    "name": "Creme de Leite - Piracanjuba - 200 g",
-    "nutrition": {
-      "score": "D",
-      "title": "Qualidade nutricional baixa"
-    },
-    "nova": {
-      "score": 4,
-      "title": "Alimentos ultra-processados"
-    }
-  },
-  {
-    "id": "7896102501872",
-    "name": "Molho De Tomate Tradicional Quero Sachê 300g",
-    "nutrition": {
-      "score": "desconhecido",
-      "title": "Faltam dados para calcular o Nutri-Score"
-    },
-    "nova": {
-      "score": null,
-      "title": "Nível desconhecido de processamento do alimento"
-    }
-  },
-  {
-    "id": "7891000100103",
-    "name": "Leite Condensado Integral - Nestlé - 395 g",
-    "nutrition": {
-      "score": "E",
-      "title": "Má qualidade nutricional"
-    },
-    "nova": {
-      "score": 4,
-      "title": "Alimentos ultra-processados"
-    }
-  },
-  {
-    "id": "8410010813729",
-    "name": "Azeite De Oliva Extra Virgem Espanhol Carbonell Vidro 500ml",
-    "nutrition": {
-      "score": "desconhecido",
-      "title": "Faltam dados para calcular o Nutri-Score"
-    },
-    "nova": {
-      "score": 2,
-      "title": "Ingredientes culinários processados"
-    }
-  },
-  {
-    "id": "7891079000205",
-    "name": "Macarrão Instantâneo Lámen Carne Nissin Miojo Pacote 85g - AJINOMOTO",
-    "nutrition": {
-      "score": "desconhecido",
-      "title": "Faltam dados para calcular o Nutri-Score"
-    },
-    "nova": {
-      "score": null,
-      "title": "Nível desconhecido de processamento do alimento"
-    }
-  },
-  {
-    "id": "7894900087062",
-    "name": "Bebida à Base De Soja Maçã Ades Caixa 1l",
-    "nutrition": {
-      "score": "desconhecido",
-      "title": "Faltam dados para calcular o Nutri-Score"
-    },
-    "nova": {
-      "score": null,
-      "title": "Nível desconhecido de processamento do alimento"
-    }
-  },
-  {
-    "id": "7898080640413",
-    "name": "Leite Condensado Semidesnatado - Italac - 395 g",
-    "nutrition": {
-      "score": "desconhecido",
-      "title": "Faltam dados para calcular o Nutri-Score"
-    },
-    "nova": {
-      "score": 4,
-      "title": "Alimentos ultra-processados"
-    }
-  },
-  {
-    "id": "7894321722016",
-    "name": "Toddynho - Pepsico - 200ml",
-    "nutrition": {
-      "score": "C",
-      "title": "Qualidade nutricional média"
-    },
-    "nova": {
-      "score": 4,
-      "title": "Alimentos ultra-processados"
-    }
-  },
-  {
-    "id": "7898188630026",
-    "name": "Chocolates 70% com Nibs de cacau - Marcos Palmeira - 80g",
-    "nutrition": {
-      "score": "D",
-      "title": "Qualidade nutricional baixa"
-    },
-    "nova": {
-      "score": null,
-      "title": "Nível desconhecido de processamento do alimento"
-    }
-  },
-  {
-    "id": "7790045001188",
-    "name": "Frutigran Avena y Pasas - Granix - 250 g",
-    "nutrition": {
-      "score": "C",
-      "title": "Qualidade nutricional média"
-    },
-    "nova": {
-      "score": 4,
-      "title": "Alimentos ultra-processados"
-    }
-  },
-  {
-    "id": "8011780000922",
+    "id": "7898967996091",
     "name": "Nome não encontrado",
     "nutrition": {
-      "score": "A",
-      "title": "Qualidade nutricional muito boa"
-    },
-    "nova": {
-      "score": 1,
-      "title": "Alimentos não processados ​​ou minimamente processados"
-    }
-  },
-  {
-    "id": "7891000061190",
-    "name": "Nescau 2.0 - Nestlé - 200 g",
-    "nutrition": {
       "score": "desconhecido",
       "title": "Faltam dados para calcular o Nutri-Score"
     },
     "nova": {
-      "score": 4,
-      "title": "Alimentos ultra-processados"
+      "score": null,
+      "title": "Nível desconhecido de processamento do alimento"
     }
   },
   {
-    "id": "4009900482967",
-    "name": "Skittles Fruits Pouch - 152 g",
-    "nutrition": {
-      "score": "D",
-      "title": "Qualidade nutricional baixa"
-    },
-    "nova": {
-      "score": 4,
-      "title": "Alimentos ultra-processados"
-    }
-  },
-  {
-    "id": "7898994081623",
-    "name": "Tapioca Hidratada - Da Terrinha - 500 g",
+    "id": "7891095911448",
+    "name": "Nome não encontrado",
     "nutrition": {
       "score": "desconhecido",
       "title": "Faltam dados para calcular o Nutri-Score"
@@ -456,32 +60,8 @@
     }
   },
   {
-    "id": "40122915",
-    "name": "Feurig scharfe Jalapeño in Scheiben - Kühne - 330 g",
-    "nutrition": {
-      "score": "C",
-      "title": "Qualidade nutricional média"
-    },
-    "nova": {
-      "score": 3,
-      "title": "Alimentos processados"
-    }
-  },
-  {
-    "id": "7891000248768",
-    "name": "Kit Kat - Nestlé - 41.5 g",
-    "nutrition": {
-      "score": "E",
-      "title": "Má qualidade nutricional"
-    },
-    "nova": {
-      "score": null,
-      "title": "Nível desconhecido de processamento do alimento"
-    }
-  },
-  {
-    "id": "7894900701517",
-    "name": "coca cola sem açúcar - CocaCola - 2litros",
+    "id": "7896513912649",
+    "name": "Nome não encontrado",
     "nutrition": {
       "score": "desconhecido",
       "title": "Faltam dados para calcular o Nutri-Score"
@@ -492,8 +72,8 @@
     }
   },
   {
-    "id": "7892840819170",
-    "name": "Toddy - 26 oz",
+    "id": "7894904266036",
+    "name": "Nome não encontrado",
     "nutrition": {
       "score": "desconhecido",
       "title": "Faltam dados para calcular o Nutri-Score"
@@ -504,8 +84,8 @@
     }
   },
   {
-    "id": "7898961591599",
-    "name": "Limonada Com Framboesa Orgânica - Limão & Cia - 300 ml",
+    "id": "7891962069043",
+    "name": "Nome não encontrado",
     "nutrition": {
       "score": "desconhecido",
       "title": "Faltam dados para calcular o Nutri-Score"
@@ -516,8 +96,8 @@
     }
   },
   {
-    "id": "5601252231164",
-    "name": "Azeite Extra Virgem Gallo - 500 ml",
+    "id": "7898930142968",
+    "name": "Nome não encontrado",
     "nutrition": {
       "score": "desconhecido",
       "title": "Faltam dados para calcular o Nutri-Score"
@@ -528,8 +108,8 @@
     }
   },
   {
-    "id": "7622300119621",
-    "name": "Fermento em Pó Royal - 100g",
+    "id": "7896196070841",
+    "name": "Nome não encontrado",
     "nutrition": {
       "score": "desconhecido",
       "title": "Faltam dados para calcular o Nutri-Score"
@@ -540,80 +120,8 @@
     }
   },
   {
-    "id": "8412170029415",
-    "name": "Noglut Jungla - Santiveri - 100 g",
-    "nutrition": {
-      "score": "C",
-      "title": "Qualidade nutricional média"
-    },
-    "nova": {
-      "score": 4,
-      "title": "Alimentos ultra-processados"
-    }
-  },
-  {
-    "id": "7896094910904",
-    "name": "Adoçante Líquido Zero Cal 100ML Ciclamato Unit",
-    "nutrition": {
-      "score": "não aplicável",
-      "title": "Não aplicável para a categoria"
-    },
-    "nova": {
-      "score": null,
-      "title": "Nível desconhecido de processamento do alimento"
-    }
-  },
-  {
-    "id": "7891999144485",
-    "name": "Requeijão Vigor 200G",
-    "nutrition": {
-      "score": "desconhecido",
-      "title": "Faltam dados para calcular o Nutri-Score"
-    },
-    "nova": {
-      "score": 4,
-      "title": "Alimentos ultra-processados"
-    }
-  },
-  {
-    "id": "7896066301778",
-    "name": "Pão de Fôrma Integral - Wickbold - 550g - 550 g",
-    "nutrition": {
-      "score": "desconhecido",
-      "title": "Faltam dados para calcular o Nutri-Score"
-    },
-    "nova": {
-      "score": 4,
-      "title": "Alimentos ultra-processados"
-    }
-  },
-  {
-    "id": "8412170033627",
-    "name": "Noglut Digestive Naranja - Santiveri - 195 g",
-    "nutrition": {
-      "score": "C",
-      "title": "Qualidade nutricional média"
-    },
-    "nova": {
-      "score": 4,
-      "title": "Alimentos ultra-processados"
-    }
-  },
-  {
-    "id": "7891107101621",
-    "name": "Aceite de soya - Bunge - 900ml",
-    "nutrition": {
-      "score": "desconhecido",
-      "title": "Faltam dados para calcular o Nutri-Score"
-    },
-    "nova": {
-      "score": 3,
-      "title": "Alimentos processados"
-    }
-  },
-  {
-    "id": "7892840815769",
-    "name": "Aveia em flocos finos - Quaker - 165",
+    "id": "7891008126389",
+    "name": "Nome não encontrado",
     "nutrition": {
       "score": "desconhecido",
       "title": "Faltam dados para calcular o Nutri-Score"
@@ -624,68 +132,8 @@
     }
   },
   {
-    "id": "7897517209544",
-    "name": "Milho (sem adição de sal e açúcar) - Fugini - 260g",
-    "nutrition": {
-      "score": "A",
-      "title": "Qualidade nutricional muito boa"
-    },
-    "nova": {
-      "score": null,
-      "title": "Nível desconhecido de processamento do alimento"
-    }
-  },
-  {
-    "id": "3760091729828",
-    "name": "Pur jus de raisin Bio - Paysans d'Ici - 1 L",
-    "nutrition": {
-      "score": "E",
-      "title": "Má qualidade nutricional"
-    },
-    "nova": {
-      "score": 1,
-      "title": "Alimentos não processados ​​ou minimamente processados"
-    }
-  },
-  {
-    "id": "7894000050034",
-    "name": "Maionese - Hellmann's - 500 g",
-    "nutrition": {
-      "score": "D",
-      "title": "Qualidade nutricional baixa"
-    },
-    "nova": {
-      "score": 4,
-      "title": "Alimentos ultra-processados"
-    }
-  },
-  {
-    "id": "7896336006624",
-    "name": "Pacoquita - 20 g",
-    "nutrition": {
-      "score": "desconhecido",
-      "title": "Faltam dados para calcular o Nutri-Score"
-    },
-    "nova": {
-      "score": 3,
-      "title": "Alimentos processados"
-    }
-  },
-  {
-    "id": "7891000029329",
-    "name": "Nescafé Tradição Forte - 100 g",
-    "nutrition": {
-      "score": "não aplicável",
-      "title": "Não aplicável para a categoria"
-    },
-    "nova": {
-      "score": 1,
-      "title": "Alimentos não processados ​​ou minimamente processados"
-    }
-  },
-  {
-    "id": "7891025120223",
-    "name": "Danone Natural Desnatado - 160g",
+    "id": "0722776005088",
+    "name": "Nome não encontrado",
     "nutrition": {
       "score": "desconhecido",
       "title": "Faltam dados para calcular o Nutri-Score"
@@ -696,80 +144,8 @@
     }
   },
   {
-    "id": "7891000073537",
-    "name": "Nesquik Chocolate - Nestlé - 400 g",
-    "nutrition": {
-      "score": "E",
-      "title": "Má qualidade nutricional"
-    },
-    "nova": {
-      "score": 4,
-      "title": "Alimentos ultra-processados"
-    }
-  },
-  {
-    "id": "8001860251900",
-    "name": "Crackers di riso integrali - Riso Scotti - 160 g",
-    "nutrition": {
-      "score": "D",
-      "title": "Qualidade nutricional baixa"
-    },
-    "nova": {
-      "score": null,
-      "title": "Nível desconhecido de processamento do alimento"
-    }
-  },
-  {
-    "id": "7790045824893",
-    "name": "Frutigran Chisps de Chocolate - Granix - 255 g",
-    "nutrition": {
-      "score": "desconhecido",
-      "title": "Faltam dados para calcular o Nutri-Score"
-    },
-    "nova": {
-      "score": 3,
-      "title": "Alimentos processados"
-    }
-  },
-  {
-    "id": "7891962054483",
-    "name": "Cookies con chips de baño de repostería con leche - Bauducco - 100 g",
-    "nutrition": {
-      "score": "desconhecido",
-      "title": "Faltam dados para calcular o Nutri-Score"
-    },
-    "nova": {
-      "score": 4,
-      "title": "Alimentos ultra-processados"
-    }
-  },
-  {
-    "id": "3760091729460",
-    "name": "Mangue du Pérou - Ethiquable - 1 l",
-    "nutrition": {
-      "score": "E",
-      "title": "Má qualidade nutricional"
-    },
-    "nova": {
-      "score": 3,
-      "title": "Alimentos processados"
-    }
-  },
-  {
-    "id": "7891000053508",
-    "name": "2.0 - Nestlé - 400 g",
-    "nutrition": {
-      "score": "desconhecido",
-      "title": "Faltam dados para calcular o Nutri-Score"
-    },
-    "nova": {
-      "score": 4,
-      "title": "Alimentos ultra-processados"
-    }
-  },
-  {
-    "id": "7891991000826",
-    "name": "Guaraná Antartica - 350 ml",
+    "id": "7896001281448",
+    "name": "Nome não encontrado",
     "nutrition": {
       "score": "desconhecido",
       "title": "Faltam dados para calcular o Nutri-Score"
@@ -780,416 +156,8 @@
     }
   },
   {
-    "id": "7890010300190",
-    "name": "Doce Sabor - 70 g, 1 u",
-    "nutrition": {
-      "score": "desconhecido",
-      "title": "Faltam dados para calcular o Nutri-Score"
-    },
-    "nova": {
-      "score": null,
-      "title": "Nível desconhecido de processamento do alimento"
-    }
-  },
-  {
-    "id": "8005121000535",
-    "name": "Gomiti 53 - Divella - 500 g - 17.6 oz (1 lb 1 oz 9 dr)",
-    "nutrition": {
-      "score": "A",
-      "title": "Qualidade nutricional muito boa"
-    },
-    "nova": {
-      "score": 1,
-      "title": "Alimentos não processados ​​ou minimamente processados"
-    }
-  },
-  {
-    "id": "7891000300503",
-    "name": "Nescafé Original Extraforte - 100 g",
-    "nutrition": {
-      "score": "B",
-      "title": "Qualidade nutricional boa"
-    },
-    "nova": {
-      "score": 1,
-      "title": "Alimentos não processados ​​ou minimamente processados"
-    }
-  },
-  {
-    "id": "7897685914516",
-    "name": "Paçoca Rolha - Paçoquinha - Santo Antônio - 135 g",
-    "nutrition": {
-      "score": "D",
-      "title": "Qualidade nutricional baixa"
-    },
-    "nova": {
-      "score": 3,
-      "title": "Alimentos processados"
-    }
-  },
-  {
-    "id": "7891962063874",
-    "name": "Pão Bisnaguinha Original Bauducco Pacote 260g",
-    "nutrition": {
-      "score": "desconhecido",
-      "title": "Faltam dados para calcular o Nutri-Score"
-    },
-    "nova": {
-      "score": 4,
-      "title": "Alimentos ultra-processados"
-    }
-  },
-  {
-    "id": "7891098040688",
-    "name": "Chá Mate Original Matte Leão Garrafa 450ml",
-    "nutrition": {
-      "score": "desconhecido",
-      "title": "Faltam dados para calcular o Nutri-Score"
-    },
-    "nova": {
-      "score": null,
-      "title": "Nível desconhecido de processamento do alimento"
-    }
-  },
-  {
-    "id": "78939318",
-    "name": "Bombom Wafer Lacta Ouro Branco Pacote 20g",
-    "nutrition": {
-      "score": "desconhecido",
-      "title": "Faltam dados para calcular o Nutri-Score"
-    },
-    "nova": {
-      "score": null,
-      "title": "Nível desconhecido de processamento do alimento"
-    }
-  },
-  {
-    "id": "7893000084315",
-    "name": "Queijo Mussarela Sadia Soltíssimo 200g",
-    "nutrition": {
-      "score": "desconhecido",
-      "title": "Faltam dados para calcular o Nutri-Score"
-    },
-    "nova": {
-      "score": null,
-      "title": "Nível desconhecido de processamento do alimento"
-    }
-  },
-  {
-    "id": "7891042000201",
-    "name": "Lipton Ice Tea 1,5l Limao",
-    "nutrition": {
-      "score": "não aplicável",
-      "title": "Não aplicável para a categoria"
-    },
-    "nova": {
-      "score": 4,
-      "title": "Alimentos ultra-processados"
-    }
-  },
-  {
-    "id": "7896074603673",
-    "name": "Waffle Congelado Tradicional Forno De Minas Pacote 210g 6 Unidades",
-    "nutrition": {
-      "score": "desconhecido",
-      "title": "Faltam dados para calcular o Nutri-Score"
-    },
-    "nova": {
-      "score": 4,
-      "title": "Alimentos ultra-processados"
-    }
-  },
-  {
-    "id": "7892840808174",
-    "name": "Isotônico Sabor Morango E Maracujá Gatorade 500ml",
-    "nutrition": {
-      "score": "desconhecido",
-      "title": "Faltam dados para calcular o Nutri-Score"
-    },
-    "nova": {
-      "score": null,
-      "title": "Nível desconhecido de processamento do alimento"
-    }
-  },
-  {
-    "id": "7891991000833",
-    "name": "Refrigerante Soda Limonada Antartica - SODA ANTARCTICA - 350 ml",
-    "nutrition": {
-      "score": "desconhecido",
-      "title": "Faltam dados para calcular o Nutri-Score"
-    },
-    "nova": {
-      "score": null,
-      "title": "Nível desconhecido de processamento do alimento"
-    }
-  },
-  {
-    "id": "7893000005969",
-    "name": "Coxa De Frango Congelada Sadia 1kg",
-    "nutrition": {
-      "score": "desconhecido",
-      "title": "Faltam dados para calcular o Nutri-Score"
-    },
-    "nova": {
-      "score": null,
-      "title": "Nível desconhecido de processamento do alimento"
-    }
-  },
-  {
-    "id": "7622210961716",
-    "name": "Chocolate Meio Amargo 40 Cacau Lacta Amaro Pacote 90g",
-    "nutrition": {
-      "score": "desconhecido",
-      "title": "Faltam dados para calcular o Nutri-Score"
-    },
-    "nova": {
-      "score": null,
-      "title": "Nível desconhecido de processamento do alimento"
-    }
-  },
-  {
-    "id": "7893000674073",
-    "name": "Lasanha Quatro Queijos Sadia Pacote 350g",
-    "nutrition": {
-      "score": "desconhecido",
-      "title": "Faltam dados para calcular o Nutri-Score"
-    },
-    "nova": {
-      "score": null,
-      "title": "Nível desconhecido de processamento do alimento"
-    }
-  },
-  {
-    "id": "7891000071786",
-    "name": "Nescafe Classic",
-    "nutrition": {
-      "score": "não aplicável",
-      "title": "Não aplicável para a categoria"
-    },
-    "nova": {
-      "score": null,
-      "title": "Nível desconhecido de processamento do alimento"
-    }
-  },
-  {
-    "id": "7894321711171",
-    "name": "Toddy - 200 g",
-    "nutrition": {
-      "score": "desconhecido",
-      "title": "Faltam dados para calcular o Nutri-Score"
-    },
-    "nova": {
-      "score": 4,
-      "title": "Alimentos ultra-processados"
-    }
-  },
-  {
-    "id": "7622300830151",
-    "name": "Biscoito Original Batman Oreo Pacote 90g",
-    "nutrition": {
-      "score": "desconhecido",
-      "title": "Faltam dados para calcular o Nutri-Score"
-    },
-    "nova": {
-      "score": null,
-      "title": "Nível desconhecido de processamento do alimento"
-    }
-  },
-  {
-    "id": "7899970400452",
-    "name": "Chocolate Ao Leite Aerado Hersheys Air Pacote 85g",
-    "nutrition": {
-      "score": "desconhecido",
-      "title": "Faltam dados para calcular o Nutri-Score"
-    },
-    "nova": {
-      "score": null,
-      "title": "Nível desconhecido de processamento do alimento"
-    }
-  },
-  {
-    "id": "78908901",
-    "name": "Refrigerante Coca Cola Garrafa 200ml",
-    "nutrition": {
-      "score": "desconhecido",
-      "title": "Faltam dados para calcular o Nutri-Score"
-    },
-    "nova": {
-      "score": null,
-      "title": "Nível desconhecido de processamento do alimento"
-    }
-  },
-  {
-    "id": "7891000065440",
-    "name": "Leite condensado - Nestlé - 395 g",
-    "nutrition": {
-      "score": "D",
-      "title": "Qualidade nutricional baixa"
-    },
-    "nova": {
-      "score": null,
-      "title": "Nível desconhecido de processamento do alimento"
-    }
-  },
-  {
-    "id": "7891000099032",
-    "name": "Farinha Láctea Original Nestlé Sachê 210g",
-    "nutrition": {
-      "score": "desconhecido",
-      "title": "Faltam dados para calcular o Nutri-Score"
-    },
-    "nova": {
-      "score": null,
-      "title": "Nível desconhecido de processamento do alimento"
-    }
-  },
-  {
-    "id": "7892840816773",
-    "name": "Batata Frita Lisa Clássica Lays Pacote 80g",
-    "nutrition": {
-      "score": "desconhecido",
-      "title": "Faltam dados para calcular o Nutri-Score"
-    },
-    "nova": {
-      "score": null,
-      "title": "Nível desconhecido de processamento do alimento"
-    }
-  },
-  {
-    "id": "7891143001206",
-    "name": "Queijo Processado Cheddar Polenghi Sandwich In 144g",
-    "nutrition": {
-      "score": "desconhecido",
-      "title": "Faltam dados para calcular o Nutri-Score"
-    },
-    "nova": {
-      "score": 4,
-      "title": "Alimentos ultra-processados"
-    }
-  },
-  {
-    "id": "7892840817916",
-    "name": "Salgadinho De Milho Queijo Nacho Doritos Pacote 210g",
-    "nutrition": {
-      "score": "desconhecido",
-      "title": "Faltam dados para calcular o Nutri-Score"
-    },
-    "nova": {
-      "score": 4,
-      "title": "Alimentos ultra-processados"
-    }
-  },
-  {
-    "id": "7891000325131",
-    "name": "Bombom Nestlé Especialidades Caixa 251g 15 Unidades",
-    "nutrition": {
-      "score": "desconhecido",
-      "title": "Faltam dados para calcular o Nutri-Score"
-    },
-    "nova": {
-      "score": null,
-      "title": "Nível desconhecido de processamento do alimento"
-    }
-  },
-  {
-    "id": "75027971",
-    "name": "bon o bon - 15 g (0.53 oz)",
-    "nutrition": {
-      "score": "E",
-      "title": "Má qualidade nutricional"
-    },
-    "nova": {
-      "score": 4,
-      "title": "Alimentos ultra-processados"
-    }
-  },
-  {
-    "id": "7790045825395",
-    "name": "Frutigran Avena, chía y lino - Granix - 240 g",
-    "nutrition": {
-      "score": "D",
-      "title": "Qualidade nutricional baixa"
-    },
-    "nova": {
-      "score": 3,
-      "title": "Alimentos processados"
-    }
-  },
-  {
-    "id": "7790045001195",
-    "name": "Frutigran Salvado - Granix - 250 g",
-    "nutrition": {
-      "score": "desconhecido",
-      "title": "Faltam dados para calcular o Nutri-Score"
-    },
-    "nova": {
-      "score": 4,
-      "title": "Alimentos ultra-processados"
-    }
-  },
-  {
-    "id": "7894900530001",
-    "name": "água Mineral - Coca-Cola - 500 ml",
-    "nutrition": {
-      "score": "A",
-      "title": "Qualidade nutricional muito boa"
-    },
-    "nova": {
-      "score": 1,
-      "title": "Alimentos não processados ​​ou minimamente processados"
-    }
-  },
-  {
-    "id": "7891000276914",
-    "name": "Nestle Classic - 1",
-    "nutrition": {
-      "score": "E",
-      "title": "Má qualidade nutricional"
-    },
-    "nova": {
-      "score": null,
-      "title": "Nível desconhecido de processamento do alimento"
-    }
-  },
-  {
-    "id": "7891079000229",
-    "name": "Nissin Lámen Galinha Caipira - 85g",
-    "nutrition": {
-      "score": "desconhecido",
-      "title": "Faltam dados para calcular o Nutri-Score"
-    },
-    "nova": {
-      "score": 4,
-      "title": "Alimentos ultra-processados"
-    }
-  },
-  {
-    "id": "7896279600538",
-    "name": "7896279600538",
-    "nutrition": {
-      "score": "desconhecido",
-      "title": "Faltam dados para calcular o Nutri-Score"
-    },
-    "nova": {
-      "score": null,
-      "title": "Nível desconhecido de processamento do alimento"
-    }
-  },
-  {
-    "id": "7891000277072",
-    "name": "Crunch - Nestlé - 90 g",
-    "nutrition": {
-      "score": "E",
-      "title": "Má qualidade nutricional"
-    },
-    "nova": {
-      "score": 4,
-      "title": "Alimentos ultra-processados"
-    }
-  },
-  {
-    "id": "7898290435953",
-    "name": "Alegra - 100 g",
+    "id": "7896438201453",
+    "name": "Nome não encontrado",
     "nutrition": {
       "score": "desconhecido",
       "title": "Faltam dados para calcular o Nutri-Score"
