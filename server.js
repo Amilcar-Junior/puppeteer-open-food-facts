@@ -1,8 +1,15 @@
 const express = require('express');
+const swaggerUi = require('swagger-ui-express');
 const fs = require('fs');
+const YAML = require('yamljs');
 
 const app = express();
-const PORT = 3000;
+const PORT = 80;
+
+// Carrega o arquivo YAML com a definição da API
+const swaggerDocument = YAML.load('swagger.yaml');
+
+app.use('/', swaggerUi.serve, swaggerUi.setup(swaggerDocument));
 
 // Rota para servir os dados dos produtos
 app.get('/products', (req, res) => {
@@ -26,7 +33,31 @@ app.get('/products', (req, res) => {
     res.status(500).json({ error: 'Erro ao ler os dados dos produtos' });
   }
 });
+// Rota para buscar os detalhes de um produto específico
+app.get('/products/:id', (req, res) => {
+  try {
+    const productId = req.params.id;
 
+    // Lê o arquivo JSON com os detalhes dos produtos
+    const productsDetails = JSON.parse(fs.readFileSync('productsDetails.json', 'utf8'));
+
+    // Encontra o produto com base no ID fornecido
+    const productDetails = productsDetails.find(product => product.id === productId);
+
+    if (!productDetails) {
+      return res.status(404).json({ error: 'Produto não encontrado' });
+    }
+
+    // Cria um novo objeto de resposta sem o campo "id"
+    const response = { ...productDetails };
+    delete response.id;
+
+    res.json(response);
+  } catch (error) {
+    console.error(error);
+    res.status(500).json({ error: 'Erro ao ler os dados dos produtos' });
+  }
+});
 
 // Inicia o servidor na porta especificada
 app.listen(PORT, () => {

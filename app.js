@@ -12,7 +12,7 @@ puppeteerProcess.stderr.on('data', (data) => {
 });
 
 // Executa o servidor Express
-const serverProcess = spawn('node', ['server2.js']);
+const serverProcess = spawn('node', ['server.js']);
 
 serverProcess.stdout.on('data', (data) => {
   console.log(`Server: ${data}`);

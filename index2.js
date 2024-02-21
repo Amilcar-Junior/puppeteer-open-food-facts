@@ -4,8 +4,7 @@ const fs = require("fs");
 (async () => {
   const browser = await puppeteer.launch({
     headless: false,
-    defaultViewport: false,
-    userDataDir: "./tmp",
+    defaultViewport: false
   });
   const page = await browser.newPage();
   await page.goto("https://br.openfoodfacts.org", {

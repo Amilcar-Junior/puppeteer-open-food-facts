@@ -1,0 +1,35 @@
+openapi: 3.0.0
+info:
+  title: API de Produtos
+  version: 1.0.0
+paths:
+  /products:
+    get:
+      summary: Retorna uma lista de produtos
+      parameters:
+        - name: nutrition
+          in: query
+          description: Filtro por pontuação de nutrição (A, B, C, D, E)
+          schema:
+            type: string
+        - name: nova
+          in: query
+          description: Filtro por pontuação NOVA (1, 2, 3, 4, 5)
+          schema:
+            type: integer
+      responses:
+        '200':
+          description: OK
+  /products/{id}:
+    get:
+      summary: Retorna os detalhes de um produto
+      parameters:
+        - name: id
+          in: path
+          description: ID do produto (3155250349793)
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: OK
