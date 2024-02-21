@@ -43,7 +43,7 @@ Download Node.js
    ```
 3. Open server
    ```js
-   http://localhost:80
+   http://localhost:80/api
    ```
 
 
