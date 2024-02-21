@@ -27,6 +27,7 @@ app.get('/products', (req, res) => {
   }
 });
 
+
 // Inicia o servidor na porta especificada
 app.listen(PORT, () => {
   console.log(`Servidor rodando em http://localhost:${PORT}`);

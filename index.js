@@ -17,7 +17,7 @@ const fs = require("fs");
   while (!isBtnDisabled) {
     await new Promise((resolve) => setTimeout(resolve, 1000)); // Espera 1 segundo antes de continuar
     const productsHandles = await page.$$(".search_results > li");
-    console.log(productsHandles)
+    // console.log(productsHandles)
     for (let i = 0; i < productsHandles.length; i++) {
       try {
         const productsHandles = await page.$$(".search_results > li"); // Re-seleciona os elementos após cada navegação
@@ -25,7 +25,6 @@ const fs = require("fs");
         await page.waitForNavigation();
 
         // Aqui você está dentro do produto, pode fazer o que quiser
-        console.log("Dentro do produto");
 
         const idElement = await page.$("#barcode");
         const nameElement = await page.$(
@@ -79,7 +78,7 @@ const fs = require("fs");
 
         const product = {
           id: id,
-          name,
+          name: name,
           nutrition: {
             score: nutritionScore,
             title: nutritionTitle,
@@ -92,6 +91,9 @@ const fs = require("fs");
 
         products.push(product); // Adiciona os dados do produto ao array
         console.log(product);
+        // Salva os dados em um arquivo JSON a cada item encontrado
+        // fs.writeFileSync("products.json", JSON.stringify(products, null, 2));
+
         await page.goBack();
         console.log("Voltou para a lista de produtos");
       } catch (error) {
@@ -109,15 +111,18 @@ const fs = require("fs");
     });
     isBtnDisabled = isDisabled;
     if (!isDisabled) {
-      await page.click(".pagination > li:nth-last-child(2)");
-      await new Promise((resolve) => setTimeout(resolve, 1000)); // Espera 1 segundo antes de continuar
+      try {
+       await page.click(".pagination > li:nth-last-child(2)"); 
+       // Espera 1 segundo antes de continuar
+       await new Promise((resolve) => setTimeout(resolve, 1000));
+      } catch (error) {
+        console.error(error);
+      }
     }
   }
 
   console.log(isBtnDisabled);
-  // Salva os dados em um arquivo JSON
+  // Salva os dados em um arquivo JSON após percorer todos os itens
   fs.writeFileSync("products.json", JSON.stringify(products, null, 2));
-
   await browser.close();
 })();
-

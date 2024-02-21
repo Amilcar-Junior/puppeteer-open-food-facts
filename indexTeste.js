@@ -8,94 +8,102 @@ const fs = require("fs");
     userDataDir: "./tmp",
   });
   const page = await browser.newPage();
-  await page.goto("https://br.openfoodfacts.org");
+  await page.goto("https://br.openfoodfacts.org", {
+    waitUntil: "load",
+  });
   let products = []; // Array para armazenar os dados dos produtos
-  const productsHandles = await page.$$(".search_results > li");
 
-  for (let i = 0; i < productsHandles.length; i++) {
-    try {
-      const productsHandles = await page.$$(".search_results > li"); // Re-seleciona os elementos após cada navegação
-      await productsHandles[i].click();
-      await page.waitForNavigation();
+  let isBtnDisabled = false;
+  while (!isBtnDisabled) {
+    const productsHandles = await page.$$(".search_results > li");
+    const promises = productsHandles.map(async (productHandle) => {
+      try {
+        await productHandle.click();
+        await page.waitForNavigation();
 
-      // Aqui você está dentro do produto, pode fazer o que quiser
-      console.log("Dentro do produto");
+        const idElement = await page.$("#barcode");
+        const titleElement = await page.$("div > div.medium-8.small-12.columns > h2");
+        const quantityElement = await page.$("#field_quantity_value");
+        const hasPalmOilElement = await page.$("#panel_ingredients_analysis_en-may-contain-palm-oil > li > a > h4");
+        const isVeganElement = await page.$("#panel_ingredients_analysis_en-non-vegan > li > a > h4");
+        const isVegetarianElement = await page.$("#panel_ingredients_analysis_en-maybe-vegetarian > li > a > h4");
+        const ingredientsListElement = await page.$("#ordered_ingredients_list");
+        const nutritionScoreElement = await page.$("#attributes_grid > li:nth-child(1) > a > div > div > div.attr_text > h4");
+        const novaScoreElement = await page.$("#attributes_grid > li:nth-child(2) > a > div > div > div.attr_text > h4");
+        const novaTitleElement = await page.$("#attributes_grid > li:nth-child(2) > a > div > div > div.attr_text > span");
+        const servingSizeElement = await page.$("#panel_serving_size_content > div > div > div");
 
-      const idElement = await page.$("#barcode");
-      const nameElement = await page.$(
-        "div > div.medium-8.small-12.columns > h2"
-      );
-      const nutritionScoreElement = await page.$(
-        "#attributes_grid > li:nth-child(1) > a > div > div > div.attr_text > h4"
-      );
-      const nutritionTitleElement = await page.$(
-        "#attributes_grid > li:nth-child(1) > a > div > div > div.attr_text > span"
-      );
-      const novaScoreElement = await page.$(
-        "#attributes_grid > li:nth-child(2) > a > div > div > div.attr_text > h4"
-      );
-      const novaTitleElement = await page.$(
-        "#attributes_grid > li:nth-child(2) > a > div > div > div.attr_text > span"
-      );
+        const id = idElement ? await page.evaluate((element) => element.textContent, idElement) : "null";
+        const title = titleElement ? await page.evaluate((element) => element.textContent, titleElement) : "null";
+        const quantity = quantityElement ? await page.evaluate((element) => element.textContent, quantityElement) : "Quantidade não encontrada";
 
-      const id = idElement
-        ? await page.evaluate((element) => element.textContent, idElement)
-        : "Id não encontrado";
-      const name = nameElement
-        ? await page.evaluate((element) => element.textContent, nameElement)
-        : "Nome não encontrado";
-      const nutritionScore = nutritionScoreElement
-        ? await page.evaluate((element) => {
-            const fullText = element.textContent;
-            const score = fullText.replace("Nutri-Score ", "");
-            return score.trim();
-          }, nutritionScoreElement)
-        : "Nutri-Score não encontrado";
-      const nutritionTitle = nutritionTitleElement
-        ? await page.evaluate(
-            (element) => element.textContent,
-            nutritionTitleElement
-          )
-        : "Título de nutrição não encontrado";
-      const novaScore = novaScoreElement
-        ? await page.evaluate((element) => {
-            const fullText = element.textContent;
-            const score = parseInt(fullText.replace("NOVA ", ""));
-            return score;
-          }, novaScoreElement)
-        : "NOVA Score não encontrado";
-      const novaTitle = novaTitleElement
-        ? await page.evaluate(
-            (element) => element.textContent,
-            novaTitleElement
-          )
-        : "Título NOVA não encontrado";
+        let isVegan = isVeganElement ? await page.evaluate((element) => element.textContent.trim(), isVeganElement) : "unknown";
+        if (isVegan === "Desconhece-se se é vegano") {
+          isVegan = "unknown";
+        } else if (isVegan === "Não vegano") {
+          isVegan = false;
+        } else {
+          isVegan = true;
+        }
 
+        let hasPalmOil = hasPalmOilElement ? await page.evaluate((element) => element.textContent.trim(), hasPalmOilElement) : "unknown";
+        if (hasPalmOil === "Desconhece-se se contém óleo de palma") {
+          hasPalmOil = "unknown";
+        } else if (hasPalmOil === "Sem óleo de palma") {
+          hasPalmOil = false;
+        } else {
+          hasPalmOil = true;
+        }
 
-      const product = {
-        id: id,
-        name,
-        nutrition: {
-          score: nutritionScore,
-          title: nutritionTitle,
-        },
-        nova: {
-          score: novaScore,
-          title: novaTitle,
-        },
-      };
+        let isVegetarian = isVegetarianElement ? await page.evaluate((element) => element.textContent.trim(), isVegetarianElement) : "unknown";
+        if (isVegetarian === "Estado vegetariano desconhecido") {
+          isVegetarian = "unknown";
+        } else if (isVegetarian === "Não vegetariano") {
+          isVegetarian = false;
+        } else {
+          isVegetarian = true;
+        }
 
-      products.push(product); // Adiciona os dados do produto ao array
-      console.log(product);
-      await page.goBack();
-      console.log("Voltou para a lista de produtos");
-    } catch (error) {
-      console.error(error);
+        const ingredientsList = ingredientsListElement ? await page.evaluate((element) => {
+          const listItems = element.querySelectorAll("li");
+          const ingredients = Array.from(listItems).map((li) => li.querySelector("span").textContent.trim());
+          return [ingredients.join(", ")];
+        }, ingredientsListElement) : ["Lista de ingredientes não encontrada"];
+
+        const nutritionScore = nutritionScoreElement ? await page.evaluate((element) => {
+          const fullText = element.textContent;
+          const score = fullText.replace("Nutri-Score ", "");
+          return score.trim();
+        }, nutritionScoreElement) : "null";
+
+        const servingSize = servingSizeElement ? (await page.evaluate((element) => element.textContent.trim(), servingSizeElement)).replace("Tamanho da porção:", "").trim() : "null";
+
+        // Resto do código de extração de dados aqui
+
+        await page.goBack();
+      } catch (error) {
+        console.error(error);
+      }
+    });
+
+    await Promise.all(promises);
+
+    const isDisabled = await page.evaluate(() => {
+      const penultimatePage = document.querySelector(".pagination > li:nth-last-child(2)");
+      return penultimatePage !== null && penultimatePage.classList.contains("current");
+    });
+    isBtnDisabled = isDisabled;
+
+    if (!isDisabled) {
+      try {
+        await page.click(".pagination > li:nth-last-child(2)");
+      } catch (error) {
+        console.error(error);
+      }
     }
   }
 
-  // Salva os dados em um arquivo JSON
-  fs.writeFileSync("products.json", JSON.stringify(products, null, 2));
-
+  console.log(isBtnDisabled);
+  fs.writeFileSync("products_details.json", JSON.stringify(products, null, 2));
   await browser.close();
 })();
