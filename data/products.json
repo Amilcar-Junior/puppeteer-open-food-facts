@@ -61,7 +61,7 @@
   },
   {
     "id": "5601045300022",
-    "name": "null",
+    "name": "Guaraná - Antarctica - 33 cl",
     "nutrition": {
       "score": "E",
       "title": "Má qualidade nutricional"
@@ -409,7 +409,7 @@
   },
   {
     "id": "8011780000922",
-    "name": "null",
+    "name": "Nudeln Spaghetti - Riscossa - 500g",
     "nutrition": {
       "score": "A",
       "title": "Qualidade nutricional muito boa"
@@ -1489,7 +1489,7 @@
   },
   {
     "id": "7894321711478",
-    "name": "null",
+    "name": "Toddy Original - 800 g",
     "nutrition": {
       "score": "desconhecido",
       "title": "Faltam dados para calcular o Nutri-Score"
@@ -1573,7 +1573,7 @@
   },
   {
     "id": "7897877000256",
-    "name": "null",
+    "name": "Vigor Grego Ultracremoso - 90g",
     "nutrition": {
       "score": "B",
       "title": "Qualidade nutricional boa"
@@ -1837,7 +1837,7 @@
   },
   {
     "id": "7896658029448",
-    "name": "null",
+    "name": "neutrogena",
     "nutrition": {
       "score": "desconhecido",
       "title": "Faltam dados para calcular o Nutri-Score"
@@ -2173,7 +2173,7 @@
   },
   {
     "id": "9556023674526",
-    "name": "Potato Crips Original flavour - ",
+    "name": "Potato Crips Original flavour -",
     "nutrition": {
       "score": "E",
       "title": "Má qualidade nutricional"
@@ -2378,6 +2378,18 @@
   {
     "id": "7891000304877",
     "name": "BISC RECH BONO FININHO CHOC 57G NESTLE",
+    "nutrition": {
+      "score": "desconhecido",
+      "title": "Faltam dados para calcular o Nutri-Score"
+    },
+    "nova": {
+      "score": null,
+      "title": "Nível desconhecido de processamento do alimento"
+    }
+  },
+  {
+    "id": "7891000357972",
+    "name": "BISC RECH FININHO NEGRESCO 57G NESTLE",
     "nutrition": {
       "score": "desconhecido",
       "title": "Faltam dados para calcular o Nutri-Score"
@@ -2593,7 +2605,7 @@
   },
   {
     "id": "7894900531008",
-    "name": "Água Mineral Crystal com Gás - Coca-Cola - 500 ml",
+    "name": "AGUA MIN CRYSTAL C/GAS 50OML - Coca-Cola - 500 ml",
     "nutrition": {
       "score": "desconhecido",
       "title": "Faltam dados para calcular o Nutri-Score"
@@ -2665,7 +2677,7 @@
   },
   {
     "id": "7891962045160",
-    "name": "Cereale, cacau, aveia e mel - Bauducco",
+    "name": "BISC CEREALE CACAU 170G BAUDUCCO",
     "nutrition": {
       "score": "desconhecido",
       "title": "Faltam dados para calcular o Nutri-Score"
@@ -2697,6 +2709,18 @@
     "nova": {
       "score": null,
       "title": "Nível desconhecido de processamento do alimento"
+    }
+  },
+  {
+    "id": "7891000051436",
+    "name": "BISC PASSATEMPO LEITE 150G NESTLE - 150 g",
+    "nutrition": {
+      "score": "D",
+      "title": "Qualidade nutricional baixa"
+    },
+    "nova": {
+      "score": 4,
+      "title": "Alimentos ultra-processados"
     }
   },
   {
@@ -2786,6 +2810,18 @@
   {
     "id": "7896016608766",
     "name": "água De Coco Esterilizada Ducoco Caixa 1l - VIZIR",
+    "nutrition": {
+      "score": "desconhecido",
+      "title": "Faltam dados para calcular o Nutri-Score"
+    },
+    "nova": {
+      "score": null,
+      "title": "Nível desconhecido de processamento do alimento"
+    }
+  },
+  {
+    "id": "7891962051062",
+    "name": "BISC CEREALE LARANJ/DAMASC 147G BAUDUCCO",
     "nutrition": {
       "score": "desconhecido",
       "title": "Faltam dados para calcular o Nutri-Score"
@@ -2952,6 +2988,18 @@
     }
   },
   {
+    "id": "7896019607636",
+    "name": "Recheada de Creme com Cacau - Amandita - 200 g",
+    "nutrition": {
+      "score": "E",
+      "title": "Má qualidade nutricional"
+    },
+    "nova": {
+      "score": null,
+      "title": "Nível desconhecido de processamento do alimento"
+    }
+  },
+  {
     "id": "7894900911510",
     "name": "Refrigerante Guaraná Kuat Garrafa 2l",
     "nutrition": {
@@ -2989,7 +3037,7 @@
   },
   {
     "id": "7891000361337",
-    "name": "Nestlé - 78 g, 3 u (2 u)",
+    "name": "COOKIE CREAM AO LEITE 78G NESTLE - 78 g, 3 u (2 u)",
     "nutrition": {
       "score": "desconhecido",
       "title": "Faltam dados para calcular o Nutri-Score"
@@ -3014,6 +3062,18 @@
   {
     "id": "7896024760289",
     "name": "BISC LEITE MALTADO COBERTO 80G PIRAQUE",
+    "nutrition": {
+      "score": "desconhecido",
+      "title": "Faltam dados para calcular o Nutri-Score"
+    },
+    "nova": {
+      "score": null,
+      "title": "Nível desconhecido de processamento do alimento"
+    }
+  },
+  {
+    "id": "7891962051079",
+    "name": "BISC CEREALE MACA/UVA 141G BAUDUCCO",
     "nutrition": {
       "score": "desconhecido",
       "title": "Faltam dados para calcular o Nutri-Score"
@@ -3060,6 +3120,18 @@
     }
   },
   {
+    "id": "7892840818029",
+    "name": "STIKSY 120G ELMA CHIPS P",
+    "nutrition": {
+      "score": "desconhecido",
+      "title": "Faltam dados para calcular o Nutri-Score"
+    },
+    "nova": {
+      "score": null,
+      "title": "Nível desconhecido de processamento do alimento"
+    }
+  },
+  {
     "id": "7891515601737",
     "name": "Macarrao com mini almondegas - Sadia",
     "nutrition": {
@@ -3086,6 +3158,18 @@
   {
     "id": "7891167012073",
     "name": "Atum Sólido Em Azeite De Oliva Gomes Da Costa Caixa 120g",
+    "nutrition": {
+      "score": "desconhecido",
+      "title": "Faltam dados para calcular o Nutri-Score"
+    },
+    "nova": {
+      "score": null,
+      "title": "Nível desconhecido de processamento do alimento"
+    }
+  },
+  {
+    "id": "7896022087005",
+    "name": "BISC RECH FRUTAS VERMELHAS 80G ISABELA - 80 g",
     "nutrition": {
       "score": "desconhecido",
       "title": "Faltam dados para calcular o Nutri-Score"
@@ -3156,8 +3240,20 @@
     }
   },
   {
+    "id": "7622210565563",
+    "name": "BISC RECH CHOCOLICIA 132G MDLZ",
+    "nutrition": {
+      "score": "desconhecido",
+      "title": "Faltam dados para calcular o Nutri-Score"
+    },
+    "nova": {
+      "score": null,
+      "title": "Nível desconhecido de processamento do alimento"
+    }
+  },
+  {
     "id": "7622210573919",
-    "name": "Biscoito Recheio Bubbaloo Tutti Frutti Trakinas Pacote 126g",
+    "name": "BISC RECH BUBBALOO TRAKINAS 126G MDLZ",
     "nutrition": {
       "score": "desconhecido",
       "title": "Faltam dados para calcular o Nutri-Score"
@@ -3240,8 +3336,32 @@
     }
   },
   {
+    "id": "7894900011753",
+    "name": "Refrigerante Coca Cola Original Garrafa 1,5l",
+    "nutrition": {
+      "score": "E",
+      "title": "Má qualidade nutricional"
+    },
+    "nova": {
+      "score": null,
+      "title": "Nível desconhecido de processamento do alimento"
+    }
+  },
+  {
     "id": "7891700206921",
     "name": "Maionese Arisco Pote 500g",
+    "nutrition": {
+      "score": "desconhecido",
+      "title": "Faltam dados para calcular o Nutri-Score"
+    },
+    "nova": {
+      "score": null,
+      "title": "Nível desconhecido de processamento do alimento"
+    }
+  },
+  {
+    "id": "7891962054117",
+    "name": "BISC COOKIES CHOC 100G/110G BAUDUCCO",
     "nutrition": {
       "score": "desconhecido",
       "title": "Faltam dados para calcular o Nutri-Score"
@@ -3301,7 +3421,7 @@
   },
   {
     "id": "7891097104343",
-    "name": "null",
+    "name": "Bebida Láctea Uht Chocolate Zero Lactose Parmalat Wheyfit Caixa 250ml",
     "nutrition": {
       "score": "desconhecido",
       "title": "Faltam dados para calcular o Nutri-Score"
@@ -3326,6 +3446,18 @@
   {
     "id": "7891025109433",
     "name": "Leite Fermentado Parcialmente Desnatado Aveia Activia Frasco 170g - DANONE",
+    "nutrition": {
+      "score": "desconhecido",
+      "title": "Faltam dados para calcular o Nutri-Score"
+    },
+    "nova": {
+      "score": null,
+      "title": "Nível desconhecido de processamento do alimento"
+    }
+  },
+  {
+    "id": "7891962050065",
+    "name": "RECHEADINHO GOIABA 112G - BAUDUCCO",
     "nutrition": {
       "score": "desconhecido",
       "title": "Faltam dados para calcular o Nutri-Score"
@@ -3433,7 +3565,7 @@
   },
   {
     "id": "7891000247624",
-    "name": "Bisc cookie negresco 60g nestle",
+    "name": "BISC COOKIE NEGRESCO 60G NESTLE",
     "nutrition": {
       "score": "desconhecido",
       "title": "Faltam dados para calcular o Nutri-Score"
@@ -3948,18 +4080,6 @@
     }
   },
   {
-    "id": "7891962051062",
-    "name": "Biscoito Integral Laranja E Damasco Bauducco Cereale Pacote 147g",
-    "nutrition": {
-      "score": "desconhecido",
-      "title": "Faltam dados para calcular o Nutri-Score"
-    },
-    "nova": {
-      "score": null,
-      "title": "Nível desconhecido de processamento do alimento"
-    }
-  },
-  {
     "id": "7892840815912",
     "name": "Salgadinho De Milho Queijo Nacho Doritos Pacote 84g",
     "nutrition": {
@@ -4185,6 +4305,1662 @@
     "nova": {
       "score": 4,
       "title": "Alimentos ultra-processados"
+    }
+  },
+  {
+    "id": "7896000554369",
+    "name": "Suco Concentrado Caju Maguary Garrafa 500ml - NIELY",
+    "nutrition": {
+      "score": "desconhecido",
+      "title": "Faltam dados para calcular o Nutri-Score"
+    },
+    "nova": {
+      "score": null,
+      "title": "Nível desconhecido de processamento do alimento"
+    }
+  },
+  {
+    "id": "7891150027831",
+    "name": "Ketchup Picante Hellmanns Squeeze 380g - HELLMANN S",
+    "nutrition": {
+      "score": "desconhecido",
+      "title": "Faltam dados para calcular o Nutri-Score"
+    },
+    "nova": {
+      "score": 4,
+      "title": "Alimentos ultra-processados"
+    }
+  },
+  {
+    "id": "7898649351248",
+    "name": "Pasta De Amendoim Crocante Integral Fit Food Pote 450g",
+    "nutrition": {
+      "score": "desconhecido",
+      "title": "Faltam dados para calcular o Nutri-Score"
+    },
+    "nova": {
+      "score": null,
+      "title": "Nível desconhecido de processamento do alimento"
+    }
+  },
+  {
+    "id": "7896058503128",
+    "name": "Bala Iogurte De Morango Original Yogurte 100 Pacote 150g - DORI",
+    "nutrition": {
+      "score": "desconhecido",
+      "title": "Faltam dados para calcular o Nutri-Score"
+    },
+    "nova": {
+      "score": null,
+      "title": "Nível desconhecido de processamento do alimento"
+    }
+  },
+  {
+    "id": "7896003738636",
+    "name": "Biscoito água E Sal Marilan Pacote 350g",
+    "nutrition": {
+      "score": "desconhecido",
+      "title": "Faltam dados para calcular o Nutri-Score"
+    },
+    "nova": {
+      "score": null,
+      "title": "Nível desconhecido de processamento do alimento"
+    }
+  },
+  {
+    "id": "7891999003072",
+    "name": "Iogurte Grego Vigor Pote 100g",
+    "nutrition": {
+      "score": "desconhecido",
+      "title": "Faltam dados para calcular o Nutri-Score"
+    },
+    "nova": {
+      "score": 4,
+      "title": "Alimentos ultra-processados"
+    }
+  },
+  {
+    "id": "7891156002030",
+    "name": "Pack Leite Fermentado Desnatado Yakult 40 Frasco 480g 6 Unidades",
+    "nutrition": {
+      "score": "desconhecido",
+      "title": "Faltam dados para calcular o Nutri-Score"
+    },
+    "nova": {
+      "score": null,
+      "title": "Nível desconhecido de processamento do alimento"
+    }
+  },
+  {
+    "id": "7894900504002",
+    "name": "Isotônico Mix De Frutas Fifa World Cup Qatar 2022 Powerade Squeeze 500ml",
+    "nutrition": {
+      "score": "desconhecido",
+      "title": "Faltam dados para calcular o Nutri-Score"
+    },
+    "nova": {
+      "score": 4,
+      "title": "Alimentos ultra-processados"
+    }
+  },
+  {
+    "id": "7622210592637",
+    "name": "BISC RECH TRAKINAS M/M CHOC/MOR 126G",
+    "nutrition": {
+      "score": "E",
+      "title": "Má qualidade nutricional"
+    },
+    "nova": {
+      "score": 4,
+      "title": "Alimentos ultra-processados"
+    }
+  },
+  {
+    "id": "7891132019403",
+    "name": "Tempero Para Legumes Sazón Pacote 60g 12 Unidades - AJINOMOTO",
+    "nutrition": {
+      "score": "não aplicável",
+      "title": "Não aplicável para a categoria"
+    },
+    "nova": {
+      "score": null,
+      "title": "Nível desconhecido de processamento do alimento"
+    }
+  },
+  {
+    "id": "7892840225711",
+    "name": "Batata Frita Frango Grelhado Elma Chips Sensações Pacote 45g - PEPSI",
+    "nutrition": {
+      "score": "desconhecido",
+      "title": "Faltam dados para calcular o Nutri-Score"
+    },
+    "nova": {
+      "score": 4,
+      "title": "Alimentos ultra-processados"
+    }
+  },
+  {
+    "id": "7893000949355",
+    "name": "Empanado De Frango Tradicional Sadia Nuggets Pacote 300g - SADIA INTERNATIONAL",
+    "nutrition": {
+      "score": "desconhecido",
+      "title": "Faltam dados para calcular o Nutri-Score"
+    },
+    "nova": {
+      "score": null,
+      "title": "Nível desconhecido de processamento do alimento"
+    }
+  },
+  {
+    "id": "7899970401800",
+    "name": "Pastilha Mix De Morango, Blueberry E Framboesa Zero Açúcar Ice Breakers Sours Pote 24g",
+    "nutrition": {
+      "score": "desconhecido",
+      "title": "Faltam dados para calcular o Nutri-Score"
+    },
+    "nova": {
+      "score": 4,
+      "title": "Alimentos ultra-processados"
+    }
+  },
+  {
+    "id": "7891203010568",
+    "name": "Pãezinhos Panco Egg Sponge Pacote 250g",
+    "nutrition": {
+      "score": "desconhecido",
+      "title": "Faltam dados para calcular o Nutri-Score"
+    },
+    "nova": {
+      "score": 4,
+      "title": "Alimentos ultra-processados"
+    }
+  },
+  {
+    "id": "78938830",
+    "name": "Bala Menta Halls Pacote 28g",
+    "nutrition": {
+      "score": "desconhecido",
+      "title": "Faltam dados para calcular o Nutri-Score"
+    },
+    "nova": {
+      "score": 4,
+      "title": "Alimentos ultra-processados"
+    }
+  },
+  {
+    "id": "7622210596413",
+    "name": "Bombom Lacta Favoritos Caixa 250,6g",
+    "nutrition": {
+      "score": "desconhecido",
+      "title": "Faltam dados para calcular o Nutri-Score"
+    },
+    "nova": {
+      "score": null,
+      "title": "Nível desconhecido de processamento do alimento"
+    }
+  },
+  {
+    "id": "7898292884070",
+    "name": "Creme Duo Io Iô Pote 180g - HERSHEY S",
+    "nutrition": {
+      "score": "desconhecido",
+      "title": "Faltam dados para calcular o Nutri-Score"
+    },
+    "nova": {
+      "score": 4,
+      "title": "Alimentos ultra-processados"
+    }
+  },
+  {
+    "id": "7896004401393",
+    "name": "Cocada Queimada Cremosa Sococo Pote 335g - KELLOGG S",
+    "nutrition": {
+      "score": "desconhecido",
+      "title": "Faltam dados para calcular o Nutri-Score"
+    },
+    "nova": {
+      "score": null,
+      "title": "Nível desconhecido de processamento do alimento"
+    }
+  },
+  {
+    "id": "7891098040848",
+    "name": "Chá Preto Ice Tea Limão Leão Garrafa 450ml",
+    "nutrition": {
+      "score": "não aplicável",
+      "title": "Não aplicável para a categoria"
+    },
+    "nova": {
+      "score": 4,
+      "title": "Alimentos ultra-processados"
+    }
+  },
+  {
+    "id": "7891515485139",
+    "name": "Linguiça Toscana Com Queijo Coalho Perdigão Na Brasa 600g",
+    "nutrition": {
+      "score": "desconhecido",
+      "title": "Faltam dados para calcular o Nutri-Score"
+    },
+    "nova": {
+      "score": 4,
+      "title": "Alimentos ultra-processados"
+    }
+  },
+  {
+    "id": "7896623100509",
+    "name": "Suco Integral Laranja Xandô Garrafa 900ml",
+    "nutrition": {
+      "score": "desconhecido",
+      "title": "Faltam dados para calcular o Nutri-Score"
+    },
+    "nova": {
+      "score": null,
+      "title": "Nível desconhecido de processamento do alimento"
+    }
+  },
+  {
+    "id": "7891025116905",
+    "name": "Silk Castanha de Caju - 1 l",
+    "nutrition": {
+      "score": "B",
+      "title": "Qualidade nutricional boa"
+    },
+    "nova": {
+      "score": null,
+      "title": "Nível desconhecido de processamento do alimento"
+    }
+  },
+  {
+    "id": "7891962052571",
+    "name": "Torrada Integral Visconti Pacote 120g",
+    "nutrition": {
+      "score": "desconhecido",
+      "title": "Faltam dados para calcular o Nutri-Score"
+    },
+    "nova": {
+      "score": null,
+      "title": "Nível desconhecido de processamento do alimento"
+    }
+  },
+  {
+    "id": "7622201684525",
+    "name": "Ovo De Chocolate Ao Leite Oreo Lacta Caixa 54g",
+    "nutrition": {
+      "score": "desconhecido",
+      "title": "Faltam dados para calcular o Nutri-Score"
+    },
+    "nova": {
+      "score": 4,
+      "title": "Alimentos ultra-processados"
+    }
+  },
+  {
+    "id": "7894904678280",
+    "name": "Pp Hot Hit Cg Seara X Picanha - 145g",
+    "nutrition": {
+      "score": "desconhecido",
+      "title": "Faltam dados para calcular o Nutri-Score"
+    },
+    "nova": {
+      "score": null,
+      "title": "Nível desconhecido de processamento do alimento"
+    }
+  },
+  {
+    "id": "7896051130284",
+    "name": "Leite Pó Integral Itambé Lata 400g",
+    "nutrition": {
+      "score": "desconhecido",
+      "title": "Faltam dados para calcular o Nutri-Score"
+    },
+    "nova": {
+      "score": null,
+      "title": "Nível desconhecido de processamento do alimento"
+    }
+  },
+  {
+    "id": "7891000279809",
+    "name": "Cereal Matinal Churros Moça Caixa 210g - NESTLE",
+    "nutrition": {
+      "score": "desconhecido",
+      "title": "Faltam dados para calcular o Nutri-Score"
+    },
+    "nova": {
+      "score": 4,
+      "title": "Alimentos ultra-processados"
+    }
+  },
+  {
+    "id": "7891098040602",
+    "name": "Chá Mate Pêssego Matte Leão Garrafa 1,5l",
+    "nutrition": {
+      "score": "desconhecido",
+      "title": "Faltam dados para calcular o Nutri-Score"
+    },
+    "nova": {
+      "score": null,
+      "title": "Nível desconhecido de processamento do alimento"
+    }
+  },
+  {
+    "id": "7894904575848",
+    "name": "Escondidinho Seara Carne",
+    "nutrition": {
+      "score": "desconhecido",
+      "title": "Faltam dados para calcular o Nutri-Score"
+    },
+    "nova": {
+      "score": null,
+      "title": "Nível desconhecido de processamento do alimento"
+    }
+  },
+  {
+    "id": "7891143001077",
+    "name": "Queijo Processado Prato Polenghi Sandwich In 144g",
+    "nutrition": {
+      "score": "desconhecido",
+      "title": "Faltam dados para calcular o Nutri-Score"
+    },
+    "nova": {
+      "score": 4,
+      "title": "Alimentos ultra-processados"
+    }
+  },
+  {
+    "id": "7896931615238",
+    "name": "Chá Verde Capim Limão E Abacaxi Campo Largo Garrafa 900ml",
+    "nutrition": {
+      "score": "não aplicável",
+      "title": "Não aplicável para a categoria"
+    },
+    "nova": {
+      "score": null,
+      "title": "Nível desconhecido de processamento do alimento"
+    }
+  },
+  {
+    "id": "7896213000011",
+    "name": "Macarrão De Sêmola Espaguete Fino Vitarella Pacote 500g",
+    "nutrition": {
+      "score": "desconhecido",
+      "title": "Faltam dados para calcular o Nutri-Score"
+    },
+    "nova": {
+      "score": null,
+      "title": "Nível desconhecido de processamento do alimento"
+    }
+  },
+  {
+    "id": "7891098041081",
+    "name": "Chá Preto Ice Tea Limão Leão Zero Garrafa 1,5l - MATTE LEAO",
+    "nutrition": {
+      "score": "desconhecido",
+      "title": "Faltam dados para calcular o Nutri-Score"
+    },
+    "nova": {
+      "score": null,
+      "title": "Nível desconhecido de processamento do alimento"
+    }
+  },
+  {
+    "id": "7898649351378",
+    "name": "Tortilha Chips De Milho Picante Frontera Tex Mex Pacote 125g",
+    "nutrition": {
+      "score": "desconhecido",
+      "title": "Faltam dados para calcular o Nutri-Score"
+    },
+    "nova": {
+      "score": 4,
+      "title": "Alimentos ultra-processados"
+    }
+  },
+  {
+    "id": "7891098040596",
+    "name": "Chá Mate Limão Matte Leão Zero Garrafa 1,5l",
+    "nutrition": {
+      "score": "desconhecido",
+      "title": "Faltam dados para calcular o Nutri-Score"
+    },
+    "nova": {
+      "score": null,
+      "title": "Nível desconhecido de processamento do alimento"
+    }
+  },
+  {
+    "id": "7622210568816",
+    "name": "Pack Biscoito Cebola Com Sour Cream Club Social Pacote 141g 6 Unidades",
+    "nutrition": {
+      "score": "desconhecido",
+      "title": "Faltam dados para calcular o Nutri-Score"
+    },
+    "nova": {
+      "score": null,
+      "title": "Nível desconhecido de processamento do alimento"
+    }
+  },
+  {
+    "id": "7898955617526",
+    "name": "Queijo Mussarela Fatiado Président 150g",
+    "nutrition": {
+      "score": "desconhecido",
+      "title": "Faltam dados para calcular o Nutri-Score"
+    },
+    "nova": {
+      "score": 4,
+      "title": "Alimentos ultra-processados"
+    }
+  },
+  {
+    "id": "7891515547226",
+    "name": "Batata Pré Frita Rústica Congelada Sadia Pacote 1,05kg",
+    "nutrition": {
+      "score": "desconhecido",
+      "title": "Faltam dados para calcular o Nutri-Score"
+    },
+    "nova": {
+      "score": null,
+      "title": "Nível desconhecido de processamento do alimento"
+    }
+  },
+  {
+    "id": "7894904575824",
+    "name": "Fettucine Seara Bolonhesa - 350 g",
+    "nutrition": {
+      "score": "desconhecido",
+      "title": "Faltam dados para calcular o Nutri-Score"
+    },
+    "nova": {
+      "score": 4,
+      "title": "Alimentos ultra-processados"
+    }
+  },
+  {
+    "id": "7622300991456",
+    "name": "Chocolate Ao Leite Lacta Pacote 90g",
+    "nutrition": {
+      "score": "desconhecido",
+      "title": "Faltam dados para calcular o Nutri-Score"
+    },
+    "nova": {
+      "score": null,
+      "title": "Nível desconhecido de processamento do alimento"
+    }
+  },
+  {
+    "id": "7894900611076",
+    "name": "Suco Uva Del Valle Garrafa 1,5l",
+    "nutrition": {
+      "score": "desconhecido",
+      "title": "Faltam dados para calcular o Nutri-Score"
+    },
+    "nova": {
+      "score": null,
+      "title": "Nível desconhecido de processamento do alimento"
+    }
+  },
+  {
+    "id": "7894904270774",
+    "name": "Lasanha Bolognese Seara Gourmet Caixa 350g",
+    "nutrition": {
+      "score": "desconhecido",
+      "title": "Faltam dados para calcular o Nutri-Score"
+    },
+    "nova": {
+      "score": null,
+      "title": "Nível desconhecido de processamento do alimento"
+    }
+  },
+  {
+    "id": "7797906000380",
+    "name": "Batata Pré Frita Tradicional Congelada Mccain Pacote 720g",
+    "nutrition": {
+      "score": "desconhecido",
+      "title": "Faltam dados para calcular o Nutri-Score"
+    },
+    "nova": {
+      "score": null,
+      "title": "Nível desconhecido de processamento do alimento"
+    }
+  },
+  {
+    "id": "7891331014490",
+    "name": "BARRA CASTANHA CAJU C/ CHOC 66G NUTRY",
+    "nutrition": {
+      "score": "desconhecido",
+      "title": "Faltam dados para calcular o Nutri-Score"
+    },
+    "nova": {
+      "score": null,
+      "title": "Nível desconhecido de processamento do alimento"
+    }
+  },
+  {
+    "id": "7891118012701",
+    "name": "Bala Framboesa 7 Belo Pacote 150g",
+    "nutrition": {
+      "score": "desconhecido",
+      "title": "Faltam dados para calcular o Nutri-Score"
+    },
+    "nova": {
+      "score": null,
+      "title": "Nível desconhecido de processamento do alimento"
+    }
+  },
+  {
+    "id": "7892840816452",
+    "name": "Salgadinho De Milho Queijo Elma Chips Fandangos Pacote 45g",
+    "nutrition": {
+      "score": "desconhecido",
+      "title": "Faltam dados para calcular o Nutri-Score"
+    },
+    "nova": {
+      "score": null,
+      "title": "Nível desconhecido de processamento do alimento"
+    }
+  },
+  {
+    "id": "7892840820060",
+    "name": "Salgadinho De Milho Pizza Rock In Rio Doritos Pacote 78g",
+    "nutrition": {
+      "score": "desconhecido",
+      "title": "Faltam dados para calcular o Nutri-Score"
+    },
+    "nova": {
+      "score": null,
+      "title": "Nível desconhecido de processamento do alimento"
+    }
+  },
+  {
+    "id": "7896423451535",
+    "name": "Chocolate Caramelo Bacon Snickers Pacote 42g",
+    "nutrition": {
+      "score": "desconhecido",
+      "title": "Faltam dados para calcular o Nutri-Score"
+    },
+    "nova": {
+      "score": null,
+      "title": "Nível desconhecido de processamento do alimento"
+    }
+  },
+  {
+    "id": "7896306612831",
+    "name": "Wafer Recheio Avelã Cobertura Chocolate Ao Leite Trento Caixa 512g 16 Unidades",
+    "nutrition": {
+      "score": "desconhecido",
+      "title": "Faltam dados para calcular o Nutri-Score"
+    },
+    "nova": {
+      "score": null,
+      "title": "Nível desconhecido de processamento do alimento"
+    }
+  },
+  {
+    "id": "7896004007076",
+    "name": "Salgadinho Provolone Cheez It Pacote 115g - PACO",
+    "nutrition": {
+      "score": "desconhecido",
+      "title": "Faltam dados para calcular o Nutri-Score"
+    },
+    "nova": {
+      "score": null,
+      "title": "Nível desconhecido de processamento do alimento"
+    }
+  },
+  {
+    "id": "7896064205207",
+    "name": "BISC PEPPA 100G SANTA EDWIGES",
+    "nutrition": {
+      "score": "desconhecido",
+      "title": "Faltam dados para calcular o Nutri-Score"
+    },
+    "nova": {
+      "score": null,
+      "title": "Nível desconhecido de processamento do alimento"
+    }
+  },
+  {
+    "id": "7891000345658",
+    "name": "Biscoito Chocolate Recheio Baunilha Negresco Pacote 100g",
+    "nutrition": {
+      "score": "desconhecido",
+      "title": "Faltam dados para calcular o Nutri-Score"
+    },
+    "nova": {
+      "score": null,
+      "title": "Nível desconhecido de processamento do alimento"
+    }
+  },
+  {
+    "id": "78936126",
+    "name": "Iogurte Grego Torta De Limão Nestlé Pote 90g",
+    "nutrition": {
+      "score": "desconhecido",
+      "title": "Faltam dados para calcular o Nutri-Score"
+    },
+    "nova": {
+      "score": null,
+      "title": "Nível desconhecido de processamento do alimento"
+    }
+  },
+  {
+    "id": "7891097000270",
+    "name": "Iogurte Grego Tradicional Batavo Pote 100g",
+    "nutrition": {
+      "score": "desconhecido",
+      "title": "Faltam dados para calcular o Nutri-Score"
+    },
+    "nova": {
+      "score": null,
+      "title": "Nível desconhecido de processamento do alimento"
+    }
+  },
+  {
+    "id": "7896306619434",
+    "name": "Wafer Recheio Mousse De Maracujá Cobertura Chocolate Branco Trento Pacote 32g - PECCIN",
+    "nutrition": {
+      "score": "desconhecido",
+      "title": "Faltam dados para calcular o Nutri-Score"
+    },
+    "nova": {
+      "score": null,
+      "title": "Nível desconhecido de processamento do alimento"
+    }
+  },
+  {
+    "id": "7891025115335",
+    "name": "Coco cremoso - YoPro",
+    "nutrition": {
+      "score": "desconhecido",
+      "title": "Faltam dados para calcular o Nutri-Score"
+    },
+    "nova": {
+      "score": null,
+      "title": "Nível desconhecido de processamento do alimento"
+    }
+  },
+  {
+    "id": "7898530842275",
+    "name": "BISC WAFER DADINHO DUO MORANGO 90G",
+    "nutrition": {
+      "score": "desconhecido",
+      "title": "Faltam dados para calcular o Nutri-Score"
+    },
+    "nova": {
+      "score": null,
+      "title": "Nível desconhecido de processamento do alimento"
+    }
+  },
+  {
+    "id": "7898530842268",
+    "name": "BISC WAFER DADINHO DUO CHOCOLATE 90G",
+    "nutrition": {
+      "score": "desconhecido",
+      "title": "Faltam dados para calcular o Nutri-Score"
+    },
+    "nova": {
+      "score": null,
+      "title": "Nível desconhecido de processamento do alimento"
+    }
+  },
+  {
+    "id": "8005121000931",
+    "name": "Macarrão Italiano Capelli Dangelo Divella 500g",
+    "nutrition": {
+      "score": "desconhecido",
+      "title": "Faltam dados para calcular o Nutri-Score"
+    },
+    "nova": {
+      "score": null,
+      "title": "Nível desconhecido de processamento do alimento"
+    }
+  },
+  {
+    "id": "7892840816322",
+    "name": "Salgadinho De Milho Presunto Elma Chips Fandangos Pacote 140g",
+    "nutrition": {
+      "score": "desconhecido",
+      "title": "Faltam dados para calcular o Nutri-Score"
+    },
+    "nova": {
+      "score": null,
+      "title": "Nível desconhecido de processamento do alimento"
+    }
+  },
+  {
+    "id": "7891008121773",
+    "name": "Chocolate Ao Leite Com Castanha Do Pará Garoto Talento Pacote 85g",
+    "nutrition": {
+      "score": "desconhecido",
+      "title": "Faltam dados para calcular o Nutri-Score"
+    },
+    "nova": {
+      "score": null,
+      "title": "Nível desconhecido de processamento do alimento"
+    }
+  },
+  {
+    "id": "7891031412022",
+    "name": "Maionese Tradicional Hemmer Squeeze 290g",
+    "nutrition": {
+      "score": "desconhecido",
+      "title": "Faltam dados para calcular o Nutri-Score"
+    },
+    "nova": {
+      "score": null,
+      "title": "Nível desconhecido de processamento do alimento"
+    }
+  },
+  {
+    "id": "7892840820343",
+    "name": "Salgadinho De Trigo Queijo Torcida Pacote 38g",
+    "nutrition": {
+      "score": "desconhecido",
+      "title": "Faltam dados para calcular o Nutri-Score"
+    },
+    "nova": {
+      "score": null,
+      "title": "Nível desconhecido de processamento do alimento"
+    }
+  },
+  {
+    "id": "7892840820299",
+    "name": "Salgadinho De Trigo Churrasco Torcida Pacote 38g",
+    "nutrition": {
+      "score": "desconhecido",
+      "title": "Faltam dados para calcular o Nutri-Score"
+    },
+    "nova": {
+      "score": null,
+      "title": "Nível desconhecido de processamento do alimento"
+    }
+  },
+  {
+    "id": "7899970400056",
+    "name": "Chocolate Ao Leite Extracremoso Hersheys Pacote 92g",
+    "nutrition": {
+      "score": "desconhecido",
+      "title": "Faltam dados para calcular o Nutri-Score"
+    },
+    "nova": {
+      "score": null,
+      "title": "Nível desconhecido de processamento do alimento"
+    }
+  },
+  {
+    "id": "7896000594198",
+    "name": "Bebida Adoçada Morango Maguary Caixa 1l",
+    "nutrition": {
+      "score": "desconhecido",
+      "title": "Faltam dados para calcular o Nutri-Score"
+    },
+    "nova": {
+      "score": null,
+      "title": "Nível desconhecido de processamento do alimento"
+    }
+  },
+  {
+    "id": "7898952496018",
+    "name": "Humos - Saj",
+    "nutrition": {
+      "score": "desconhecido",
+      "title": "Faltam dados para calcular o Nutri-Score"
+    },
+    "nova": {
+      "score": null,
+      "title": "Nível desconhecido de processamento do alimento"
+    }
+  },
+  {
+    "id": "7894904268511",
+    "name": "Presunto Cozido Fatiado Seara 180g",
+    "nutrition": {
+      "score": "desconhecido",
+      "title": "Faltam dados para calcular o Nutri-Score"
+    },
+    "nova": {
+      "score": null,
+      "title": "Nível desconhecido de processamento do alimento"
+    }
+  },
+  {
+    "id": "7898234850019",
+    "name": "Farinha De Trigo Nita - 11",
+    "nutrition": {
+      "score": "desconhecido",
+      "title": "Faltam dados para calcular o Nutri-Score"
+    },
+    "nova": {
+      "score": null,
+      "title": "Nível desconhecido de processamento do alimento"
+    }
+  },
+  {
+    "id": "7891962067889",
+    "name": "Bolinho Laranja Bauducco Pacote 40g",
+    "nutrition": {
+      "score": "desconhecido",
+      "title": "Faltam dados para calcular o Nutri-Score"
+    },
+    "nova": {
+      "score": null,
+      "title": "Nível desconhecido de processamento do alimento"
+    }
+  },
+  {
+    "id": "7891008123975",
+    "name": "Chocolate Ao Leite Garoto Pacote 80g",
+    "nutrition": {
+      "score": "desconhecido",
+      "title": "Faltam dados para calcular o Nutri-Score"
+    },
+    "nova": {
+      "score": null,
+      "title": "Nível desconhecido de processamento do alimento"
+    }
+  },
+  {
+    "id": "7896213006235",
+    "name": "Biscoito Cream Cracker Amanteigado Tradicional Vitarella Pacote 350g - 96",
+    "nutrition": {
+      "score": "desconhecido",
+      "title": "Faltam dados para calcular o Nutri-Score"
+    },
+    "nova": {
+      "score": null,
+      "title": "Nível desconhecido de processamento do alimento"
+    }
+  },
+  {
+    "id": "7891515600624",
+    "name": "Macarrão Com Bacon Carbonara Sadia Hot Bowls Pote 300g",
+    "nutrition": {
+      "score": "desconhecido",
+      "title": "Faltam dados para calcular o Nutri-Score"
+    },
+    "nova": {
+      "score": null,
+      "title": "Nível desconhecido de processamento do alimento"
+    }
+  },
+  {
+    "id": "7891149108534",
+    "name": "Weisse - Patagonia - 740 ml",
+    "nutrition": {
+      "score": "desconhecido",
+      "title": "Faltam dados para calcular o Nutri-Score"
+    },
+    "nova": {
+      "score": null,
+      "title": "Nível desconhecido de processamento do alimento"
+    }
+  },
+  {
+    "id": "7790199604372",
+    "name": "Azeite de Oliva Extra Virgem - Morixe - 500 ml",
+    "nutrition": {
+      "score": "C",
+      "title": "Qualidade nutricional média"
+    },
+    "nova": {
+      "score": 2,
+      "title": "Ingredientes culinários processados"
+    }
+  },
+  {
+    "id": "7891000360361",
+    "name": "Iogurte Grego Tradicional Morango Nestlé Bandeja 540g 6 Unidades Leve Mais Pague Menos",
+    "nutrition": {
+      "score": "desconhecido",
+      "title": "Faltam dados para calcular o Nutri-Score"
+    },
+    "nova": {
+      "score": null,
+      "title": "Nível desconhecido de processamento do alimento"
+    }
+  },
+  {
+    "id": "7891132019731",
+    "name": "Tempero Para Saladas Sazón Pacote 60g 12 Unidades - AJINOMOTO",
+    "nutrition": {
+      "score": "desconhecido",
+      "title": "Faltam dados para calcular o Nutri-Score"
+    },
+    "nova": {
+      "score": null,
+      "title": "Nível desconhecido de processamento do alimento"
+    }
+  },
+  {
+    "id": "7891141036170",
+    "name": "Suco Integral Uva Tinto Aurora Caixa 1,5l",
+    "nutrition": {
+      "score": "desconhecido",
+      "title": "Faltam dados para calcular o Nutri-Score"
+    },
+    "nova": {
+      "score": null,
+      "title": "Nível desconhecido de processamento do alimento"
+    }
+  },
+  {
+    "id": "7896311710317",
+    "name": "Protein crisp - Integral médica",
+    "nutrition": {
+      "score": "desconhecido",
+      "title": "Faltam dados para calcular o Nutri-Score"
+    },
+    "nova": {
+      "score": null,
+      "title": "Nível desconhecido de processamento do alimento"
+    }
+  },
+  {
+    "id": "8710624624187",
+    "name": "Fris broodbeleg - Plus - 515g",
+    "nutrition": {
+      "score": "D",
+      "title": "Qualidade nutricional baixa"
+    },
+    "nova": {
+      "score": 4,
+      "title": "Alimentos ultra-processados"
+    }
+  },
+  {
+    "id": "7891025101604",
+    "name": "Leite Uht Paulista 1lt Integral Edge - 1l",
+    "nutrition": {
+      "score": "desconhecido",
+      "title": "Faltam dados para calcular o Nutri-Score"
+    },
+    "nova": {
+      "score": null,
+      "title": "Nível desconhecido de processamento do alimento"
+    }
+  },
+  {
+    "id": "7898403781014",
+    "name": "BatGut - ameixa - Betania",
+    "nutrition": {
+      "score": "desconhecido",
+      "title": "Faltam dados para calcular o Nutri-Score"
+    },
+    "nova": {
+      "score": null,
+      "title": "Nível desconhecido de processamento do alimento"
+    }
+  },
+  {
+    "id": "7896213006396",
+    "name": "Biscoito Maizena Tradicional Vitarella Pacote 350g",
+    "nutrition": {
+      "score": "desconhecido",
+      "title": "Faltam dados para calcular o Nutri-Score"
+    },
+    "nova": {
+      "score": null,
+      "title": "Nível desconhecido de processamento do alimento"
+    }
+  },
+  {
+    "id": "0602883960350",
+    "name": "Brownie & Crispies - Bold - 60g",
+    "nutrition": {
+      "score": "desconhecido",
+      "title": "Faltam dados para calcular o Nutri-Score"
+    },
+    "nova": {
+      "score": null,
+      "title": "Nível desconhecido de processamento do alimento"
+    }
+  },
+  {
+    "id": "7891515555245",
+    "name": "Margarina Original Com Sal Becel Pote 250g",
+    "nutrition": {
+      "score": "desconhecido",
+      "title": "Faltam dados para calcular o Nutri-Score"
+    },
+    "nova": {
+      "score": null,
+      "title": "Nível desconhecido de processamento do alimento"
+    }
+  },
+  {
+    "id": "7891515901066",
+    "name": "Margarina Cremosa Com Sal Claybom Pote 250g",
+    "nutrition": {
+      "score": "desconhecido",
+      "title": "Faltam dados para calcular o Nutri-Score"
+    },
+    "nova": {
+      "score": null,
+      "title": "Nível desconhecido de processamento do alimento"
+    }
+  },
+  {
+    "id": "7893333325000",
+    "name": "Cream Cheese Philadelphia Pote 150g",
+    "nutrition": {
+      "score": "desconhecido",
+      "title": "Faltam dados para calcular o Nutri-Score"
+    },
+    "nova": {
+      "score": null,
+      "title": "Nível desconhecido de processamento do alimento"
+    }
+  },
+  {
+    "id": "7891095911486",
+    "name": "Farofa De Mandioca Tradicional Yoki Pacote 400g",
+    "nutrition": {
+      "score": "desconhecido",
+      "title": "Faltam dados para calcular o Nutri-Score"
+    },
+    "nova": {
+      "score": null,
+      "title": "Nível desconhecido de processamento do alimento"
+    }
+  },
+  {
+    "id": "7896311710331",
+    "name": "Protein crisp Romeu e  Julieta",
+    "nutrition": {
+      "score": "desconhecido",
+      "title": "Faltam dados para calcular o Nutri-Score"
+    },
+    "nova": {
+      "score": null,
+      "title": "Nível desconhecido de processamento do alimento"
+    }
+  },
+  {
+    "id": "7622210754813",
+    "name": "BISC COOKIE AO LEITE 80G LACTA",
+    "nutrition": {
+      "score": "desconhecido",
+      "title": "Faltam dados para calcular o Nutri-Score"
+    },
+    "nova": {
+      "score": null,
+      "title": "Nível desconhecido de processamento do alimento"
+    }
+  },
+  {
+    "id": "7899970402159",
+    "name": "Chocolate Com Pedaços De Café Caramel Macchiato Hersheys Coffee Creations Pacote 85g",
+    "nutrition": {
+      "score": "desconhecido",
+      "title": "Faltam dados para calcular o Nutri-Score"
+    },
+    "nova": {
+      "score": null,
+      "title": "Nível desconhecido de processamento do alimento"
+    }
+  },
+  {
+    "id": "7891000286449",
+    "name": "Nescafé Original - 230 g",
+    "nutrition": {
+      "score": "B",
+      "title": "Qualidade nutricional boa"
+    },
+    "nova": {
+      "score": 1,
+      "title": "Alimentos não processados ​​ou minimamente processados"
+    }
+  },
+  {
+    "id": "7891031112120",
+    "name": "Pepinos Rodelas Agridoce em Conserva - Hemmer",
+    "nutrition": {
+      "score": "desconhecido",
+      "title": "Faltam dados para calcular o Nutri-Score"
+    },
+    "nova": {
+      "score": null,
+      "title": "Nível desconhecido de processamento do alimento"
+    }
+  },
+  {
+    "id": "78922310",
+    "name": "Mentos Pure Fresh Mint Wintergreen",
+    "nutrition": {
+      "score": "desconhecido",
+      "title": "Faltam dados para calcular o Nutri-Score"
+    },
+    "nova": {
+      "score": null,
+      "title": "Nível desconhecido de processamento do alimento"
+    }
+  },
+  {
+    "id": "7891331010546",
+    "name": "BARRA NUTRY AVELA C/CHOC C/3 66G",
+    "nutrition": {
+      "score": "desconhecido",
+      "title": "Faltam dados para calcular o Nutri-Score"
+    },
+    "nova": {
+      "score": null,
+      "title": "Nível desconhecido de processamento do alimento"
+    }
+  },
+  {
+    "id": "7896002304153",
+    "name": "Pão Para Hambúrguer Com Gergelim Pullman Grand Burger Pacote 420g Tamanho Família",
+    "nutrition": {
+      "score": "desconhecido",
+      "title": "Faltam dados para calcular o Nutri-Score"
+    },
+    "nova": {
+      "score": null,
+      "title": "Nível desconhecido de processamento do alimento"
+    }
+  },
+  {
+    "id": "7896030520013",
+    "name": "Queijo Cottage Tirolez Pote 400g Leve Mais Pague Menos Embalagem Econômica",
+    "nutrition": {
+      "score": "desconhecido",
+      "title": "Faltam dados para calcular o Nutri-Score"
+    },
+    "nova": {
+      "score": null,
+      "title": "Nível desconhecido de processamento do alimento"
+    }
+  },
+  {
+    "id": "5601252102433",
+    "name": "Azeite De Oliva Extra Virgem Clássico Português Gallo Vidro 250ml - N/A",
+    "nutrition": {
+      "score": "desconhecido",
+      "title": "Faltam dados para calcular o Nutri-Score"
+    },
+    "nova": {
+      "score": null,
+      "title": "Nível desconhecido de processamento do alimento"
+    }
+  },
+  {
+    "id": "7622210565938",
+    "name": "BISC OREO CHOCOLATE 270G MDLZ - LEVE MAIS",
+    "nutrition": {
+      "score": "desconhecido",
+      "title": "Faltam dados para calcular o Nutri-Score"
+    },
+    "nova": {
+      "score": null,
+      "title": "Nível desconhecido de processamento do alimento"
+    }
+  },
+  {
+    "id": "7622210674395",
+    "name": "Chocolate Ao Leite Com Amendoim Lacta Shot Pacote 80g - MONDELEZ",
+    "nutrition": {
+      "score": "desconhecido",
+      "title": "Faltam dados para calcular o Nutri-Score"
+    },
+    "nova": {
+      "score": null,
+      "title": "Nível desconhecido de processamento do alimento"
+    }
+  },
+  {
+    "id": "7622210709523",
+    "name": "Chocolate Ao Leite Com Amendoim Lacta Shot Pacote 165g Tamanho Família",
+    "nutrition": {
+      "score": "desconhecido",
+      "title": "Faltam dados para calcular o Nutri-Score"
+    },
+    "nova": {
+      "score": null,
+      "title": "Nível desconhecido de processamento do alimento"
+    }
+  },
+  {
+    "id": "7622300989408",
+    "name": "BISC RECH OREO MORANGO 90G KRAFT",
+    "nutrition": {
+      "score": "desconhecido",
+      "title": "Faltam dados para calcular o Nutri-Score"
+    },
+    "nova": {
+      "score": null,
+      "title": "Nível desconhecido de processamento do alimento"
+    }
+  },
+  {
+    "id": "7891000352038",
+    "name": "BISC RECH NEGRESCO COB BAUN 103G NESTLE",
+    "nutrition": {
+      "score": "desconhecido",
+      "title": "Faltam dados para calcular o Nutri-Score"
+    },
+    "nova": {
+      "score": null,
+      "title": "Nível desconhecido de processamento do alimento"
+    }
+  },
+  {
+    "id": "7891000353769",
+    "name": "Mistura Láctea Condensada Moça Caixa 395g - CONDE",
+    "nutrition": {
+      "score": "desconhecido",
+      "title": "Faltam dados para calcular o Nutri-Score"
+    },
+    "nova": {
+      "score": null,
+      "title": "Nível desconhecido de processamento do alimento"
+    }
+  },
+  {
+    "id": "7891000376881",
+    "name": "BISC RECH BONO LIMAO 90G NESTLE",
+    "nutrition": {
+      "score": "desconhecido",
+      "title": "Faltam dados para calcular o Nutri-Score"
+    },
+    "nova": {
+      "score": null,
+      "title": "Nível desconhecido de processamento do alimento"
+    }
+  },
+  {
+    "id": "7891000377017",
+    "name": "BISC RECH BONO COCO 90G NESTLE",
+    "nutrition": {
+      "score": "desconhecido",
+      "title": "Faltam dados para calcular o Nutri-Score"
+    },
+    "nova": {
+      "score": null,
+      "title": "Nível desconhecido de processamento do alimento"
+    }
+  },
+  {
+    "id": "7891008040029",
+    "name": "Chocolate Pó Solúvel 50 Cacau Garoto Chocolateria Caixa 200g",
+    "nutrition": {
+      "score": "desconhecido",
+      "title": "Faltam dados para calcular o Nutri-Score"
+    },
+    "nova": {
+      "score": null,
+      "title": "Nível desconhecido de processamento do alimento"
+    }
+  },
+  {
+    "id": "7891021007078",
+    "name": "Cappuccino Solúvel Tradicional Melitta Lata 200g",
+    "nutrition": {
+      "score": "desconhecido",
+      "title": "Faltam dados para calcular o Nutri-Score"
+    },
+    "nova": {
+      "score": null,
+      "title": "Nível desconhecido de processamento do alimento"
+    }
+  },
+  {
+    "id": "7891048050668",
+    "name": "Gelatina Dr.oetker Morango 20g",
+    "nutrition": {
+      "score": "desconhecido",
+      "title": "Faltam dados para calcular o Nutri-Score"
+    },
+    "nova": {
+      "score": null,
+      "title": "Nível desconhecido de processamento do alimento"
+    }
+  },
+  {
+    "id": "7891097000713",
+    "name": "Iogurte Parcialmente Desnatado Grego Morango Zero Lactose Batavo Pense Zero Pote 100g",
+    "nutrition": {
+      "score": "desconhecido",
+      "title": "Faltam dados para calcular o Nutri-Score"
+    },
+    "nova": {
+      "score": null,
+      "title": "Nível desconhecido de processamento do alimento"
+    }
+  },
+  {
+    "id": "7891097001260",
+    "name": "Iogurte Desnatado Morango Zero Lactose Batavo Pense Zero Pedaços Pote 500g",
+    "nutrition": {
+      "score": "desconhecido",
+      "title": "Faltam dados para calcular o Nutri-Score"
+    },
+    "nova": {
+      "score": null,
+      "title": "Nível desconhecido de processamento do alimento"
+    }
+  },
+  {
+    "id": "7891097012686",
+    "name": "Manteiga Com Sal Batavo 200g",
+    "nutrition": {
+      "score": "desconhecido",
+      "title": "Faltam dados para calcular o Nutri-Score"
+    },
+    "nova": {
+      "score": null,
+      "title": "Nível desconhecido de processamento do alimento"
+    }
+  },
+  {
+    "id": "7891107111927",
+    "name": "óleo De Canola Tipo 1 Salada Garrafa 900ml",
+    "nutrition": {
+      "score": "desconhecido",
+      "title": "Faltam dados para calcular o Nutri-Score"
+    },
+    "nova": {
+      "score": null,
+      "title": "Nível desconhecido de processamento do alimento"
+    }
+  },
+  {
+    "id": "7891132082384",
+    "name": "Refresco Em Pó Morango Mid Pacote 20g",
+    "nutrition": {
+      "score": "desconhecido",
+      "title": "Faltam dados para calcular o Nutri-Score"
+    },
+    "nova": {
+      "score": null,
+      "title": "Nível desconhecido de processamento do alimento"
+    }
+  },
+  {
+    "id": "7898215153238",
+    "name": "Bebida Láctea Uht Baunilha Zero Lactose Piracanjuba Whey Caixa 250ml 23g - 13",
+    "nutrition": {
+      "score": "desconhecido",
+      "title": "Faltam dados para calcular o Nutri-Score"
+    },
+    "nova": {
+      "score": null,
+      "title": "Nível desconhecido de processamento do alimento"
+    }
+  },
+  {
+    "id": "7894904271566",
+    "name": "Margarina Sem Sal Com Creme De Leite Delícia Pote 500g",
+    "nutrition": {
+      "score": "desconhecido",
+      "title": "Faltam dados para calcular o Nutri-Score"
+    },
+    "nova": {
+      "score": null,
+      "title": "Nível desconhecido de processamento do alimento"
+    }
+  },
+  {
+    "id": "7898215151982",
+    "name": "Creme De Leite Uht Homogeneizado Zero Lactose Piracanjuba Caixa 200g",
+    "nutrition": {
+      "score": "desconhecido",
+      "title": "Faltam dados para calcular o Nutri-Score"
+    },
+    "nova": {
+      "score": null,
+      "title": "Nível desconhecido de processamento do alimento"
+    }
+  },
+  {
+    "id": "7896001215238",
+    "name": "Adoçante Em Pó Xilitol Linea Pouch 250g",
+    "nutrition": {
+      "score": "desconhecido",
+      "title": "Faltam dados para calcular o Nutri-Score"
+    },
+    "nova": {
+      "score": null,
+      "title": "Nível desconhecido de processamento do alimento"
+    }
+  },
+  {
+    "id": "7896022200046",
+    "name": "Macarrão De Sêmola De Trigo Grano Duro Espaguete 8 Renata Superiore Pacote 500g - SELMI",
+    "nutrition": {
+      "score": "desconhecido",
+      "title": "Faltam dados para calcular o Nutri-Score"
+    },
+    "nova": {
+      "score": null,
+      "title": "Nível desconhecido de processamento do alimento"
+    }
+  },
+  {
+    "id": "7891962050072",
+    "name": "RECHEADINHO CHOCOLATE 104G - BAUDUCCO",
+    "nutrition": {
+      "score": "desconhecido",
+      "title": "Faltam dados para calcular o Nutri-Score"
+    },
+    "nova": {
+      "score": null,
+      "title": "Nível desconhecido de processamento do alimento"
+    }
+  },
+  {
+    "id": "7896214532702",
+    "name": "Geleia Frutas Vermelhas Queensberry Classic Vidro 320g",
+    "nutrition": {
+      "score": "desconhecido",
+      "title": "Faltam dados para calcular o Nutri-Score"
+    },
+    "nova": {
+      "score": null,
+      "title": "Nível desconhecido de processamento do alimento"
+    }
+  },
+  {
+    "id": "7892840800604",
+    "name": "Refrigerante Cola Pepsi Garrafa 3l",
+    "nutrition": {
+      "score": "desconhecido",
+      "title": "Faltam dados para calcular o Nutri-Score"
+    },
+    "nova": {
+      "score": null,
+      "title": "Nível desconhecido de processamento do alimento"
+    }
+  },
+  {
+    "id": "7891962048208",
+    "name": "WAFER MAXI COOKIES BAUDUCCO 117G",
+    "nutrition": {
+      "score": "desconhecido",
+      "title": "Faltam dados para calcular o Nutri-Score"
+    },
+    "nova": {
+      "score": null,
+      "title": "Nível desconhecido de processamento do alimento"
+    }
+  },
+  {
+    "id": "7891962067681",
+    "name": "Bisc cookie int aveia/pas 80g bauducco",
+    "nutrition": {
+      "score": "desconhecido",
+      "title": "Faltam dados para calcular o Nutri-Score"
+    },
+    "nova": {
+      "score": null,
+      "title": "Nível desconhecido de processamento do alimento"
+    }
+  },
+  {
+    "id": "7896496972203",
+    "name": "Granola Banana E Cacau Mãe Terra Pacote 250g - 13",
+    "nutrition": {
+      "score": "desconhecido",
+      "title": "Faltam dados para calcular o Nutri-Score"
+    },
+    "nova": {
+      "score": null,
+      "title": "Nível desconhecido de processamento do alimento"
+    }
+  },
+  {
+    "id": "7891331015039",
+    "name": "BARRA NUTS ORIGINAL 60G NUTRY",
+    "nutrition": {
+      "score": "desconhecido",
+      "title": "Faltam dados para calcular o Nutri-Score"
+    },
+    "nova": {
+      "score": null,
+      "title": "Nível desconhecido de processamento do alimento"
+    }
+  },
+  {
+    "id": "7896066314495",
+    "name": "Pão De Forma Wickbold Estar Leve Pacote 300g",
+    "nutrition": {
+      "score": "desconhecido",
+      "title": "Faltam dados para calcular o Nutri-Score"
+    },
+    "nova": {
+      "score": null,
+      "title": "Nível desconhecido de processamento do alimento"
+    }
+  },
+  {
+    "id": "7898080664389",
+    "name": "Baly Energy Drink Melancia Garrafa 2L",
+    "nutrition": {
+      "score": "E",
+      "title": "Má qualidade nutricional"
+    },
+    "nova": {
+      "score": 4,
+      "title": "Alimentos ultra-processados"
+    }
+  },
+  {
+    "id": "7896292334298",
+    "name": "Molho Madeira Para Carne Predilecta Sachê 300g",
+    "nutrition": {
+      "score": "desconhecido",
+      "title": "Faltam dados para calcular o Nutri-Score"
+    },
+    "nova": {
+      "score": null,
+      "title": "Nível desconhecido de processamento do alimento"
+    }
+  },
+  {
+    "id": "7891331014100",
+    "name": "BARRA FRUTA NUTRY COCO C/3 57G",
+    "nutrition": {
+      "score": "desconhecido",
+      "title": "Faltam dados para calcular o Nutri-Score"
+    },
+    "nova": {
+      "score": null,
+      "title": "Nível desconhecido de processamento do alimento"
+    }
+  },
+  {
+    "id": "7896006751113",
+    "name": "Preto Camil Tipo 1 Pacote 1 Kg - UNIAO QUIMICA - 1kg",
+    "nutrition": {
+      "score": "desconhecido",
+      "title": "Faltam dados para calcular o Nutri-Score"
+    },
+    "nova": {
+      "score": null,
+      "title": "Nível desconhecido de processamento do alimento"
+    }
+  },
+  {
+    "id": "7898955705490",
+    "name": "Bebida à Base De Amêndoa A Tal Da Castanha Caixa 1l",
+    "nutrition": {
+      "score": "desconhecido",
+      "title": "Faltam dados para calcular o Nutri-Score"
+    },
+    "nova": {
+      "score": null,
+      "title": "Nível desconhecido de processamento do alimento"
+    }
+  },
+  {
+    "id": "7896024726582",
+    "name": "BISC NEWAFER CHOCOLATE 100G PIRAQUE",
+    "nutrition": {
+      "score": "desconhecido",
+      "title": "Faltam dados para calcular o Nutri-Score"
+    },
+    "nova": {
+      "score": null,
+      "title": "Nível desconhecido de processamento do alimento"
+    }
+  },
+  {
+    "id": "7892840800000",
+    "name": "Refrigerante De Cola Pepsi 2l",
+    "nutrition": {
+      "score": "desconhecido",
+      "title": "Faltam dados para calcular o Nutri-Score"
+    },
+    "nova": {
+      "score": null,
+      "title": "Nível desconhecido de processamento do alimento"
+    }
+  },
+  {
+    "id": "7896024761323",
+    "name": "BISC RECH PRETTY 76G PIRAQUE - PACO",
+    "nutrition": {
+      "score": "desconhecido",
+      "title": "Faltam dados para calcular o Nutri-Score"
+    },
+    "nova": {
+      "score": null,
+      "title": "Nível desconhecido de processamento do alimento"
+    }
+  },
+  {
+    "id": "7898649351811",
+    "name": "Biscoito De Arroz Integral Cobertura Chocolate Meio Amargo Zero Açúcar Fit Food Pacote 60g",
+    "nutrition": {
+      "score": "desconhecido",
+      "title": "Faltam dados para calcular o Nutri-Score"
+    },
+    "nova": {
+      "score": null,
+      "title": "Nível desconhecido de processamento do alimento"
+    }
+  },
+  {
+    "id": "7896213006419",
+    "name": "Biscoito Maizena Chocolate Vitarella Pacote 350g",
+    "nutrition": {
+      "score": "desconhecido",
+      "title": "Faltam dados para calcular o Nutri-Score"
+    },
+    "nova": {
+      "score": null,
+      "title": "Nível desconhecido de processamento do alimento"
+    }
+  },
+  {
+    "id": "7896024760883",
+    "name": "BISC COOKIE CHOCOLATE 80G PIRAQUE",
+    "nutrition": {
+      "score": "desconhecido",
+      "title": "Faltam dados para calcular o Nutri-Score"
+    },
+    "nova": {
+      "score": null,
+      "title": "Nível desconhecido de processamento do alimento"
     }
   }
 ]

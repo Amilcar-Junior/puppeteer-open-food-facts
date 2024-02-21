@@ -3,9 +3,8 @@ const fs = require("fs");
 
 (async () => {
   const browser = await puppeteer.launch({
-    headless: false,
+    headless: true,
     defaultViewport: false,
-    userDataDir: "./tmp",
   });
   const page = await browser.newPage();
   await page.goto("https://br.openfoodfacts.org", {
@@ -17,16 +16,18 @@ const fs = require("fs");
   let isBtnDisabled = false;
   while (!isBtnDisabled) {
     await new Promise((resolve) => setTimeout(resolve, 1000)); // Espera 1 segundo antes de continuar
+    //guarda todos os produtos da pagina principal
     const productsHandles = await page.$$(".search_results > li");
-    // console.log(productsHandles)
+
     for (let i = 0; i < productsHandles.length; i++) {
       try {
         const productsHandles = await page.$$(".search_results > li"); // Re-seleciona os elementos após cada navegação
+        //clica no produto[i]
         await productsHandles[i].click();
         await page.waitForNavigation();
 
-        // Aqui você está dentro do produto, pode fazer o que quiser
-
+        // Dentro do Produto
+        // variaveis dos selectors
         const idElement = await page.$("#barcode");
         const titleElementSelector1 =
           "#product > div > div > div.card-section > h2";
@@ -35,12 +36,6 @@ const fs = require("fs");
 
         const quantityElement = await page.$("#field_quantity_value");
 
-        const isVeganElement = await page.$(
-          "#panel_ingredients_analysis_en-non-vegan > li > a > h4"
-        );
-        const isVegetarianElement = await page.$(
-          "#panel_ingredients_analysis_en-maybe-vegetarian > li > a > h4"
-        );
         const ingredientsListElement = await page.$(
           "#ordered_ingredients_list"
         );
@@ -50,9 +45,6 @@ const fs = require("fs");
         const nutritionTitleElement = await page.$(
           "#attributes_grid > li:nth-child(1) > a > div > div > div.attr_text > span"
         );
-        // const nutrientLevelsElement = document.querySelectorAll.$(
-        //   "#panel_nutrient_levels_content > div > ul"
-        // );
         const novaScoreElement = await page.$(
           "#attributes_grid > li:nth-child(2) > a > div > div > div.attr_text > h4"
         );
@@ -66,7 +58,7 @@ const fs = require("fs");
         const id = idElement
           ? await page.evaluate((element) => element.textContent, idElement)
           : "null";
-          
+
         let titleElement = await page.$(titleElementSelector1);
         if (!titleElement) {
           titleElement = await page.$(titleElementSelector2);
@@ -85,6 +77,7 @@ const fs = require("fs");
             )
           : "null";
 
+        //4 possiveis ids que pode se obter o valor
         const palmOilStatusMap = {
           "#panel_ingredients_analysis_en-palm-oil-free": false,
           "#panel_ingredients_analysis_en-may-contain-palm-oil": "maybe",
@@ -93,15 +86,15 @@ const fs = require("fs");
         };
 
         let hasPalmOil = "unknown"; // Valor padrão
-
+        //verifica de algum dos 4 id esta foi encontrado e seta o valor
         for (const id in palmOilStatusMap) {
           if (await page.$(id)) {
             hasPalmOil = palmOilStatusMap[id];
             break;
           }
         }
-        // console.log(hasPalmOil);
 
+        //4 possiveis ids que pode se obter o valor
         const veganStatusMap = {
           "#panel_ingredients_analysis_en-non-vegan": false,
           "#panel_ingredients_analysis_en-vegan-status-unknown": "unknown",
@@ -110,15 +103,15 @@ const fs = require("fs");
         };
 
         let isVegan = "unknown"; // Valor padrão
-
+        //verifica de algum dos 4 id esta foi encontrado e seta o valor
         for (const id in veganStatusMap) {
           if (await page.$(id)) {
             isVegan = veganStatusMap[id];
             break;
           }
         }
-        // console.log(isVegan);
 
+        //4 possiveis ids que pode se obter o valor
         const vegetarianStatusMap = {
           "#panel_ingredients_analysis_en-non-vegetarian": false,
           "#panel_ingredients_analysis_en-maybe-vegetarian": "maybe",
@@ -127,22 +120,22 @@ const fs = require("fs");
         };
 
         let isVegetarian = "unknown"; // Valor padrão
-
+        //verifica de algum dos 4 id esta foi encontrado e seta o valor
         for (const id in vegetarianStatusMap) {
           if (await page.$(id)) {
             isVegetarian = vegetarianStatusMap[id];
             break;
           }
         }
-        // console.log(isVegetarian);
 
         const nutritionTitle = nutritionTitleElement
           ? await page.evaluate(
               (element) => element.textContent,
               nutritionTitleElement
             )
-          : "Título de nutrição não encontrado";
+          : "null";
 
+        //coleta todos os dados span dentros do li e junta com ,
         const ingredientsList = ingredientsListElement
           ? await page.evaluate((element) => {
               const listItems = element.querySelectorAll("li");
@@ -153,6 +146,7 @@ const fs = require("fs");
             }, ingredientsListElement)
           : ["null"];
 
+        //coleta o valor do nutri-score e remove o texto de nutri-score para obter apenas (A,B,C,D,E,F)
         const nutritionScore = nutritionScoreElement
           ? await page.evaluate((element) => {
               const fullText = element.textContent;
@@ -161,6 +155,7 @@ const fs = require("fs");
             }, nutritionScoreElement)
           : "null";
 
+        //verifica atravez as imagem para definir level e pega o texto
         const nutrientLevels = await page.evaluate(() => {
           const nutrientLevelsElements = document.querySelectorAll(
             "#panel_nutrient_levels_content > div > ul"
@@ -185,6 +180,7 @@ const fs = require("fs");
         });
         // console.log(nutrientLevels);
 
+        //coleta os dados de tamanho de porção e remove o texto Tamanho da porção:
         const servingSize = servingSizeElement
           ? (
               await page.evaluate(
@@ -199,15 +195,15 @@ const fs = require("fs");
         const nutritionFactsTable = await page.$(
           "#panel_nutrition_facts_table_content > div > table > tbody"
         );
-        let nutritionData = {}; // Definição da variável fora do loop
+        let nutritionData = {};
         if (nutritionFactsTable) {
           const rows = await nutritionFactsTable.$$("tr");
 
           if (rows.length > 0) {
-            // Extrai os dados de cada linha da tabela menos o ultimo
+            // Extrai os dados de cada linha da tabela
             for (let j = 0; j < rows.length - 1; j++) {
               const tds = await rows[j].$$("td");
-
+              //pega ex: energia
               if (tds.length > 0) {
                 const columnNameSpan = await tds[0].$("span");
                 const columnName = await page.evaluate(
@@ -215,16 +211,16 @@ const fs = require("fs");
                   columnNameSpan
                 );
 
-                let columnValue = null;
+                let columnValuePer100g = null;
                 let columnValuePerServing = null;
-
+                //pega ex: per100 para energia
                 if (tds.length > 1) {
-                  const columnValueSpan = await tds[1].$("span");
-                  columnValue = await page.evaluate(
+                  const columnValueSpanPer100g = await tds[1].$("span");
+                  columnValuePer100g = await page.evaluate(
                     (element) => element.textContent.trim(),
-                    columnValueSpan
+                    columnValueSpanPer100g
                   );
-
+                  //pega ex: PerServing para energia
                   if (tds.length > 2) {
                     const columnValuePerServingSpan = await tds[2].$("span");
                     columnValuePerServing = await page.evaluate(
@@ -235,9 +231,9 @@ const fs = require("fs");
                 }
                 // Remove as aspas do nome da coluna, se houver
                 const cleanColumnName = columnName.replace(/['"]/g, "");
-                // Formata o valor da coluna no estilo desejado
+
                 nutritionData[cleanColumnName] = {
-                  per100g: columnValue,
+                  per100g: columnValuePer100g,
                   perServing: columnValuePerServing,
                 };
               }
@@ -246,6 +242,7 @@ const fs = require("fs");
           }
         }
 
+        //pega o valor de novascore e remove o texto NOVA
         const novaScore = novaScoreElement
           ? await page.evaluate((element) => {
               const fullText = element.textContent;
@@ -253,6 +250,8 @@ const fs = require("fs");
               return score;
             }, novaScoreElement)
           : "null";
+
+        //pega o valor de novaTitle
         const novaTitle = novaTitleElement
           ? await page.evaluate(
               (element) => element.textContent,
@@ -260,21 +259,23 @@ const fs = require("fs");
             )
           : "null";
 
+        //fortatação de como os produtos vão ficar salvos no products.json
         const product = {
-          id: id,
-          name: title,
+          id: id, // number
+          name: title, // string
           nutrition: {
-            score: nutritionScore,
-            title: nutritionTitle,
+            score: nutritionScore, // string
+            title: nutritionTitle, // string
           },
           nova: {
-            score: novaScore,
-            title: novaTitle,
+            score: novaScore, // string
+            title: novaTitle, // string
           },
         };
 
+        //fortatação de como os produtos vão ficar salvos no productsDetails.json
         const productDetails = {
-          id: id, //string
+          id: id, // number
           title: title, // string
           quantity: quantity, // string
           ingredients: {
@@ -300,32 +301,39 @@ const fs = require("fs");
 
         console.log(product);
         console.log(productDetails);
+
+
+        // Descomentar caso queira salvar os dados no json em tempo real 
+        // PS: Na pratica faz com que o projeto fique mais lento pois tem que salvar o arquivo a cada produto
         // Salva os dados em um arquivo JSON a cada item encontrado
-        fs.writeFileSync("products.json", JSON.stringify(products, null, 2));
-        fs.writeFileSync(
-          "productsDetails.json",
-          JSON.stringify(productsDetails, null, 2)
-        );
+
+        // fs.writeFileSync("./data/products.json", JSON.stringify(products, null, 2));
+        // fs.writeFileSync(
+        //   "./data/productsDetails.json",
+        //   JSON.stringify(productsDetails, null, 2)
+        // );
 
         await page.goBack();
       } catch (error) {
         console.error(error);
       }
     }
+
+    //pego os valores do penultimo li de paginação onde fica o botão proximo
+    //caso o penultimo tiver classe current quer dizer que o proximo desapareceu e ficou a ultima pagina no penultimo li
     const isDisabled = await page.evaluate(() => {
       const penultimatePage = document.querySelector(
         ".pagination > li:nth-last-child(2)"
       );
       return (
         penultimatePage !== null &&
-        penultimatePage.classList.contains("current")
+        penultimatePage.classList.contains("current") 
       );
     });
-    isBtnDisabled = isDisabled;
+    //clica no botão proximo
     if (!isDisabled) {
       try {
         await page.click(".pagination > li:nth-last-child(2)");
-        // Espera 1 segundo antes de continuar
         await new Promise((resolve) => setTimeout(resolve, 1000));
       } catch (error) {
         console.error(error);
@@ -333,11 +341,10 @@ const fs = require("fs");
     }
   }
 
-  console.log(isBtnDisabled);
   // Salva os dados em um arquivo JSON após percorer todos os itens
-  fs.writeFileSync("products.json", JSON.stringify(products, null, 2));
+  fs.writeFileSync("./data/products.json", JSON.stringify(products, null, 2));
   fs.writeFileSync(
-    "productsDetails.json",
+    "./data/productsDetails.json",
     JSON.stringify(productsDetails, null, 2)
   );
   await browser.close();
